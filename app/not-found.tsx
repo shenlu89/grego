@@ -1,0 +1,21 @@
+import Image from 'next/image';
+import Link from 'next/link';
+
+export default function NotFound() {
+  return (
+    <section className='flex flex-col h-full items-center justify-center space-y-4'>
+      <h1 className='font-extrabold text-5xl tracking-tight'>404</h1>
+      <span className='text-gray-600 dark:text-gray-400'>
+        Page Not Found. Go Back to{' '}
+        <Link
+          href='/'
+          className='underline hover:text-black dark:hover:text-white underline-offset-[3px]'
+        >
+          Home
+        </Link>{' '}
+        page.
+      </span>
+      <h1>Mathcheap.xyz Ads</h1>
+    </section>
+  );
+}
