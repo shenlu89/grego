@@ -19,19 +19,10 @@ export default function Home() {
   }: any = useStore();
 
   useEffect(() => {
-    if (incompletedTopics) {
-      setIncompleteTopics(
-        pool.map((topic) => ({
-          ...topic,
-          content: "",
-          lastdate: null,
-        }))
-      );
-    }
     if (!selectedTopic) {
       setSelectedTopic(randomTopic(enabled ? incompletedTopics : pool));
     }
-  }, [selectedTopic, setSelectedTopic, setIncompleteTopics, completedTopics]);
+  }, [selectedTopic]);
 
   return (
     <>
@@ -74,13 +65,29 @@ export default function Home() {
           </Link>
         </div>
         <hr />
-        <div className="flex justify-between">
-          <div className="flex w-1/2 justify-center">
-            <h2 className="text-xl font-bold">Completed Topics</h2>
-            <ul>
+        <div className="flex justify-between space-x-4">
+          <div className="flex flex-col w-1/2 items-center">
+            <h2 className="text-xl font-bold mb-4">Completed Topics</h2>
+            <ul className="flex flex-col space-y-4">
               {completedTopics.map((topic) => (
                 <li key={topic.id}>
-                  <Link href={`/topics/${topic.id}`}>{topic.topic}</Link>
+                  <Link
+                    href={`/topics/${topic.id}`}
+                    className="flex flex-col space-x-1 p-4 bg-white border "
+                  >
+                    {/* <div>#{topic.id}</div> */}
+                    <div className="font-normal">{topic.topic}</div>
+                    <div className="flex justify-between">
+                      <span>
+                        {
+                          topic.content
+                            .split(/\s+/)
+                            .filter((word) => word.length > 0).length
+                        }
+                      </span>
+                      <span>{topic.lastdate}</span>
+                    </div>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -90,10 +97,13 @@ export default function Home() {
             <ul className="flex flex-col space-y-4">
               {incompletedTopics.map((topic) => (
                 <li key={topic.id}>
-                  <div className="flex space-x-1 p-4 bg-white border ">
-                    {/* <div>#{topic.id}</div> */}
+                  <Link
+                    href={`/topics/${topic.id}`}
+                    className="flex space-x-1 p-4 bg-white border "
+                  >
+                    <div>#{topic.id}</div>
                     <div className="font-normal">{topic.topic}</div>
-                  </div>
+                  </Link>
                 </li>
               ))}
             </ul>
