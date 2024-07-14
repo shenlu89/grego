@@ -14,22 +14,24 @@ import { useRouter } from "next/navigation";
 import useStore from "@/lib/use-store";
 
 export default function WritingBoard({ params }) {
+  const { addCompletedTopic, setIncompleteTopics }: any = useStore();
+
   const selectedTopic = pool.find((topic) => topic.id === +params.slug);
   if (!selectedTopic) notFound();
   const router = useRouter();
-  const { addCompletedTopic } = useStore();
 
-  const [wordCount, setWordCount] = useState(0);
+  const [text, setText] = useState("");
   const textareaRef = useRef(null);
 
-  const handleTextareaChange = (event) => {
-    const text = event.target.value;
-    setWordCount(text.split(/\s+/).filter((word) => word.length > 0).length);
-  };
-
   const handleSave = () => {
-    addCompletedTopic(selectedTopic);
-    // router.push("/");
+    if (text.length > 0) {
+      addCompletedTopic({
+        ...selectedTopic,
+        content: text,
+        lastdate: new Date().toLocaleString(),
+      });
+      console.log(1);
+    }
   };
 
   useEffect(() => {
@@ -70,7 +72,9 @@ export default function WritingBoard({ params }) {
         <div className="flex justify-between">
           <div className="flex space-x-1">
             <span>Words:</span>
-            <span>{wordCount}</span>
+            <span>
+              {text.split(/\s+/).filter((word) => word.length > 0).length}
+            </span>
           </div>
           <CountDownTimer />
         </div>
@@ -78,7 +82,7 @@ export default function WritingBoard({ params }) {
           ref={textareaRef}
           className="w-full p-4 h-96 outline-none border"
           rows={3}
-          onChange={handleTextareaChange}
+          onChange={(e) => setText(e.target.value)}
         />
         <div className="flex w-full justify-between">
           <button className="flex font-bold text-sm items-center space-x-2 w-fit justify-center rounded border border-slate-600 bg-slate-100 px-3 py-2 text-slate-600 hover:text-white hover:bg-slate-600 ">
