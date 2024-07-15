@@ -14,13 +14,16 @@ import { useRouter } from "next/navigation";
 import useStore from "@/lib/use-store";
 
 export default function WritingBoard({ params }) {
-  const { addCompletedTopic, setIncompleteTopics }: any = useStore();
+  const { addCompletedTopic, incompletedTopics, completedTopics }: any =
+    useStore();
 
-  const selectedTopic = pool.find((topic) => topic.id === +params.slug);
+  const selectedTopic = [...incompletedTopics, ...completedTopics].find(
+    (topic) => topic.id === +params.slug
+  );
   if (!selectedTopic) notFound();
   const router = useRouter();
 
-  const [text, setText] = useState("");
+  const [text, setText] = useState(selectedTopic.content || "");
   const textareaRef = useRef(null);
 
   const handleSave = () => {
@@ -82,6 +85,7 @@ export default function WritingBoard({ params }) {
           ref={textareaRef}
           className="w-full p-4 h-96 outline-none border"
           rows={3}
+          value={text} // Set the value to the state variable
           onChange={(e) => setText(e.target.value)}
         />
         <div className="flex w-full justify-between">
