@@ -73,12 +73,12 @@ export default function Home() {
                 <li key={topic.id}>
                   <Link
                     href={`/topics/${topic.id}`}
-                    className="flex flex-col space-x-1 p-4 bg-white border "
+                    className="flex flex-col p-4 space-y-4 border bg-green-50"
                   >
-                    {/* <div>#{topic.id}</div> */}
                     <div className="font-normal">{topic.topic}</div>
-                    <div className="flex justify-between">
+                    <div className="flex justify-between text-slate-600">
                       <span>
+                        Words:{" "}
                         {
                           topic.content
                             .split(/\s+/)
