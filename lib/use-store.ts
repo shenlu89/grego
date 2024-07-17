@@ -20,14 +20,6 @@ const useStore = create(
             (t: any) => t.id !== topic.id
           ),
         })),
-      addIncompleteTopic: (topic: any) =>
-        set((state: any) => ({
-          incompletedTopics: [...state.incompletedTopics, topic],
-        })),
-      setIncompleteTopics: (topics: any) =>
-        set(() => ({
-          incompletedTopics: topics,
-        })),
       setEnabled: (bool: any) => set({ enabled: bool }),
     }),
     {
