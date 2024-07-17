@@ -57,13 +57,13 @@ export default function Topics() {
           <li
             key={topic.id}
             className={`flex flex-col p-4 border space-y-4 w-full ${
-              completedTopics.find((t) => t.id === topic.id)
+              completedTopics.find((t: any) => t.id === topic.id)
                 ? "bg-green-50"
                 : "bg-white"
             }`}
           >
             <div className="text-lg font-bold">
-              {topic?.topic.split("\n\n").map((p, index) => (
+              {topic?.topic.split("\n\n").map((p: string, index: number) => (
                 <h2 key={index}>{p}</h2>
               ))}
             </div>

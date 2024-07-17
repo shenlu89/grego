@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 import { FaPause, FaPlay, FaRedo } from "react-icons/fa";
 import { LuAlarmClock } from "react-icons/lu";
 
@@ -29,25 +29,28 @@ const CountdownTimer = () => {
     cancelAnimationFrame(requestRef.current);
   };
 
-  const updateTime = (currentTime: number) => {
-    if (!startTimeRef.current) startTimeRef.current = currentTime;
-    const elapsedTime = (currentTime - startTimeRef.current) / 1000;
-    setTimeLeft((prevTimeLeft) => Math.max(0, prevTimeLeft - elapsedTime));
-    startTimeRef.current = currentTime; // Update startTime to the current time
+  const updateTime = useCallback(
+    (currentTime: number) => {
+      if (!startTimeRef.current) startTimeRef.current = currentTime;
+      const elapsedTime = (currentTime - startTimeRef.current) / 1000;
+      setTimeLeft((prevTimeLeft) => Math.max(0, prevTimeLeft - elapsedTime));
+      startTimeRef.current = currentTime; // Update startTime to the current time
 
-    if (timeLeft > 0 && running) {
-      requestRef.current = requestAnimationFrame(updateTime);
-    } else {
-      setRunning(false);
-    }
-  };
+      if (timeLeft > 0 && running) {
+        requestRef.current = requestAnimationFrame(updateTime);
+      } else {
+        setRunning(false);
+      }
+    },
+    [running, timeLeft]
+  );
 
   useEffect(() => {
     if (running) {
       requestRef.current = requestAnimationFrame(updateTime);
     }
     return () => cancelAnimationFrame(requestRef.current);
-  }, [running]);
+  }, [running, updateTime]);
 
   const formatTime = (seconds: number) => {
     const minutes = Math.floor(seconds / 60);

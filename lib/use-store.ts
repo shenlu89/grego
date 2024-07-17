@@ -8,22 +8,22 @@ const useStore = create(
       selectedTopic: null,
       completedTopics: [],
       incompletedTopics: pool, // Initialize with an empty array
-      setSelectedTopic: (topic) => set({ selectedTopic: topic }),
-      addCompletedTopic: (topic) =>
-        set((state) => ({
+      setSelectedTopic: (topic: any) => set({ selectedTopic: topic }),
+      addCompletedTopic: (topic: any) =>
+        set((state: any) => ({
           completedTopics: [
             topic,
-            ...state.completedTopics.filter((t) => t.id !== topic.id),
+            ...state.completedTopics.filter((t: any) => t.id !== topic.id),
           ],
           incompletedTopics: state.incompletedTopics.filter(
             (t) => t.id !== topic.id
           ),
         })),
-      addIncompleteTopic: (topic) =>
-        set((state) => ({
+      addIncompleteTopic: (topic: any) =>
+        set((state: any) => ({
           incompletedTopics: [...state.incompletedTopics, topic],
         })),
-      setIncompleteTopics: (topics) =>
+      setIncompleteTopics: (topics: any) =>
         set(() => ({
           incompletedTopics: topics,
         })),

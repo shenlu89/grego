@@ -13,7 +13,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import useStore from "@/lib/use-store";
 
-export default function WritingBoard({ params }) {
+export default function WritingBoard({ params }: any) {
   const { addCompletedTopic, incompletedTopics, completedTopics }: any =
     useStore();
 
@@ -24,7 +24,7 @@ export default function WritingBoard({ params }) {
   const router = useRouter();
 
   const [text, setText] = useState(selectedTopic.content || "");
-  const textareaRef = useRef(null);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   const handleSave = () => {
     if (text.length > 0) {
@@ -39,7 +39,7 @@ export default function WritingBoard({ params }) {
 
   useEffect(() => {
     if (textareaRef.current) {
-      textareaRef.current.focus();
+      textareaRef?.current?.focus();
     }
   }, []);
 
@@ -64,9 +64,11 @@ export default function WritingBoard({ params }) {
         </div>
         <div className="flex flex-col p-4 border bg-white space-y-4">
           <div className="text-lg font-bold">
-            {selectedTopic?.topic.split("\n\n").map((p, index) => (
-              <h2 key={index}>{p}</h2>
-            ))}
+            {selectedTopic?.topic
+              .split("\n\n")
+              .map((p: string, index: number) => (
+                <h2 key={index}>{p}</h2>
+              ))}
           </div>
           <hr />
           <p>{selectedTopic?.statements}</p>
@@ -76,7 +78,10 @@ export default function WritingBoard({ params }) {
           <div className="flex space-x-1">
             <span>Words:</span>
             <span>
-              {text.split(/\s+/).filter((word) => word.length > 0).length}
+              {
+                text.split(/\s+/).filter((word: string) => word.length > 0)
+                  .length
+              }
             </span>
           </div>
           <CountDownTimer />

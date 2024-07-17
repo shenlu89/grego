@@ -6,7 +6,8 @@ import pool from "@/data/writing-pool.json";
 import Link from "next/link";
 import useStore from "@/lib/use-store";
 
-const randomTopic = (pool) => pool[Math.floor(Math.random() * pool.length)];
+const randomTopic = (pool: any[]) =>
+  pool[Math.floor(Math.random() * pool.length)];
 
 export default function Home() {
   const [enabled, setEnabled] = useState(true);
@@ -15,23 +16,24 @@ export default function Home() {
     setSelectedTopic,
     completedTopics,
     incompletedTopics,
-    setIncompleteTopics,
   }: any = useStore();
 
   useEffect(() => {
     if (!selectedTopic) {
       setSelectedTopic(randomTopic(enabled ? incompletedTopics : pool));
     }
-  }, [selectedTopic]);
+  }, [selectedTopic, enabled, incompletedTopics, setSelectedTopic]);
 
   return (
     <>
       <div className="flex flex-col w-full space-y-4">
         <div className="flex flex-col p-4 border bg-white space-y-4">
           <div className="text-lg font-bold">
-            {selectedTopic?.topic?.split("\n\n").map((p, index) => (
-              <div key={index}>{p}</div>
-            ))}
+            {selectedTopic?.topic
+              ?.split("\n\n")
+              .map((p: any, index: number) => (
+                <div key={index}>{p}</div>
+              ))}
           </div>
           <hr />
           <div>{selectedTopic?.statements}</div>
@@ -69,7 +71,7 @@ export default function Home() {
           <div className="flex flex-col w-1/2 items-center">
             <h2 className="text-xl font-bold mb-4">Completed Topics</h2>
             <ul className="flex flex-col space-y-4">
-              {completedTopics.map((topic) => (
+              {completedTopics.map((topic: any) => (
                 <li key={topic.id}>
                   <Link
                     href={`/topics/${topic.id}`}
@@ -82,7 +84,7 @@ export default function Home() {
                         {
                           topic.content
                             .split(/\s+/)
-                            .filter((word) => word.length > 0).length
+                            .filter((word: string) => word.length > 0).length
                         }
                       </span>
                       <span>{topic.lastdate}</span>
@@ -95,7 +97,7 @@ export default function Home() {
           <div className="flex flex-col w-1/2 items-center">
             <h2 className="text-xl font-bold mb-4">Incomplete Topics</h2>
             <ul className="flex flex-col space-y-4">
-              {incompletedTopics.map((topic) => (
+              {incompletedTopics.map((topic: any) => (
                 <li key={topic.id}>
                   <Link
                     href={`/topics/${topic.id}`}
