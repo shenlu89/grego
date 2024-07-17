@@ -16,7 +16,7 @@ const useStore = create(
             ...state.completedTopics.filter((t: any) => t.id !== topic.id),
           ],
           incompletedTopics: state.incompletedTopics.filter(
-            (t) => t.id !== topic.id
+            (t: any) => t.id !== topic.id
           ),
         })),
       addIncompleteTopic: (topic: any) =>
