@@ -70,7 +70,9 @@ export default function Home() {
         <hr />
         <div className="flex justify-between space-x-4">
           <div className="flex flex-col w-1/2 items-center">
-            <h2 className="text-xl font-bold mb-4">Completed Topics</h2>
+            <h2 className="text-xl font-bold mb-4">
+              Completed Topics ({completedTopics.length})
+            </h2>
             <ul className="flex flex-col space-y-4">
               {completedTopics.map((topic: any) => (
                 <li key={topic.id}>
@@ -78,6 +80,7 @@ export default function Home() {
                     href={`/topics/${topic.id}`}
                     className="flex flex-col p-4 space-y-4 border bg-green-50"
                   >
+                    <div>#{topic.id}</div>
                     <div className="font-normal">{topic.topic}</div>
                     <div className="flex justify-between text-slate-600">
                       <span>
@@ -96,13 +99,15 @@ export default function Home() {
             </ul>
           </div>
           <div className="flex flex-col w-1/2 items-center">
-            <h2 className="text-xl font-bold mb-4">Incomplete Topics</h2>
+            <h2 className="text-xl font-bold mb-4">
+              Incomplete Topics ({incompletedTopics.length})
+            </h2>
             <ul className="flex flex-col space-y-4">
               {incompletedTopics.map((topic: any) => (
                 <li key={topic.id}>
                   <Link
                     href={`/topics/${topic.id}`}
-                    className="flex space-x-1 p-4 bg-white border "
+                    className="flex flex-col p-4 space-y-4 bg-white border "
                   >
                     <div>#{topic.id}</div>
                     <div className="font-normal">{topic.topic}</div>
