@@ -2,7 +2,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Textarea } from "@headlessui/react";
 import CountDownTimer from "@/components/countdown-timer";
-import pool from "@/data/writing-pool.json";
 import { notFound } from "next/navigation";
 import { HiArrowRight } from "react-icons/hi2";
 import { GoHistory } from "react-icons/go";
