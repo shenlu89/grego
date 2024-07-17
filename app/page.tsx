@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Checkbox } from "@headlessui/react";
 import { HiArrowRight, HiCheck, HiOutlineSwitchVertical } from "react-icons/hi";
 import pool from "@/data/writing-pool.json";
