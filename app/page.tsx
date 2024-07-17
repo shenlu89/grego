@@ -10,12 +10,13 @@ const randomTopic = (pool: any[]) =>
   pool[Math.floor(Math.random() * pool.length)];
 
 export default function Home() {
-  const [enabled, setEnabled] = useState(true);
   const {
     selectedTopic,
     setSelectedTopic,
     completedTopics,
     incompletedTopics,
+    enabled,
+    setEnabled,
   }: any = useStore();
 
   useEffect(() => {

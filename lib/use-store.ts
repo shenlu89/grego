@@ -5,6 +5,7 @@ import pool from "@/data/writing-pool.json";
 const useStore = create(
   persist(
     (set) => ({
+      enabled: true,
       selectedTopic: null,
       completedTopics: [],
       incompletedTopics: pool, // Initialize with an empty array
@@ -27,6 +28,7 @@ const useStore = create(
         set(() => ({
           incompletedTopics: topics,
         })),
+      setEnabled: (bool: any) => set({ enabled: bool }),
     }),
     {
       name: "writing-storage", // unique name for the storage
