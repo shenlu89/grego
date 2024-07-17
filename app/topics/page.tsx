@@ -1,18 +1,21 @@
 "use client";
 import { FormEvent, useCallback, useRef, useState } from "react";
 import { HiArrowRight } from "react-icons/hi";
-import pool from "@/data/writing-pool.json";
 import Link from "next/link";
 import { HiMiniMagnifyingGlass } from "react-icons/hi2";
 import { BsXCircleFill } from "react-icons/bs";
 import useKeyPress from "@/hooks/use-key-press";
+import useStore from "@/lib/use-store";
 
 export default function Topics() {
+  const { incompletedTopics, completedTopics }: any = useStore();
   const [serachPosts, setserachPosts] = useState<string>("");
   const searchInput = useRef<HTMLInputElement>(null);
-  const filteredTopics = pool.filter((topic: any) =>
-    topic.topic.toLowerCase().includes(serachPosts.toLowerCase())
-  );
+  const filteredTopics = [...incompletedTopics, ...completedTopics]
+    .filter((topic: any) =>
+      topic.topic.toLowerCase().includes(serachPosts.toLowerCase())
+    )
+    .sort((a, b) => a.id - b.id);
 
   // handle what happens on key press
   const handleKeyPress = useCallback((event: any) => {
@@ -53,7 +56,11 @@ export default function Topics() {
         {filteredTopics.map((topic) => (
           <li
             key={topic.id}
-            className="flex flex-col p-4 border bg-white hover:bg-slate-50 space-y-4 w-full"
+            className={`flex flex-col p-4 border space-y-4 w-full ${
+              completedTopics.find((t) => t.id === topic.id)
+                ? "bg-green-50"
+                : "bg-white"
+            }`}
           >
             <div className="text-lg font-bold">
               {topic?.topic.split("\n\n").map((p, index) => (
