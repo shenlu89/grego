@@ -7,7 +7,6 @@ import { notFound } from "next/navigation";
 import { HiArrowRight } from "react-icons/hi2";
 import { GoHistory } from "react-icons/go";
 import { MdOutlineSaveAlt } from "react-icons/md";
-import LoadingSpinner from "@/components/loading-spinner";
 import { SlArrowRight } from "react-icons/sl";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
