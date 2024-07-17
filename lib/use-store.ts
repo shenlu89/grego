@@ -5,7 +5,7 @@ import pool from "@/data/writing-pool.json";
 const useStore = create(
   persist(
     (set) => ({
-      enabled: true,
+      enabled: false,
       selectedTopic: null,
       completedTopics: [],
       incompletedTopics: pool, // Initialize with an empty array
