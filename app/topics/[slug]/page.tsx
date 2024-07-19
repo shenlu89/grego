@@ -86,7 +86,7 @@ export default function WritingBoard({ params }: any) {
         </div>
         <Textarea
           ref={textareaRef}
-          className="w-full p-4 h-96 outline-none border"
+          className="w-full p-4 h-[48rem] outline-none border"
           rows={3}
           value={text} // Set the value to the state variable
           onChange={(e) => setText(e.target.value)}
