@@ -10,11 +10,11 @@ const Navbar: NextPage = () => {
 
   return (
     <header className="flex max-w-6xl container mx-auto select-none md:relative fixed inset-x-0 bottom-0 z-50">
-      <div className="flex justify-between w-full mx-4 py-4  border border-x-0 border-t-0 border-b-slate-200">
+      <div className="flex justify-between w-full mx-4 py-4 border border-x-0 border-t-0 border-b-slate-200">
         <Link href={"/"} className="flex text-green-500 space-x-1 items-center">
           <PiPlantDuotone className="flex size-6" />
           <span className="text-xl font-extrabold tracking-tighter self-center pr-8">
-            GREEN
+            GRE Tools
           </span>
         </Link>
         <nav className="flex">
