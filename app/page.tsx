@@ -1,7 +1,8 @@
 "use client";
 import { useEffect } from "react";
 import { Checkbox } from "@headlessui/react";
-import { HiArrowRight, HiCheck, HiOutlineSwitchVertical } from "react-icons/hi";
+import { HiArrowRight, HiCheck } from "react-icons/hi";
+import { LuShuffle } from "react-icons/lu";
 import pool from "@/data/writing-pool.json";
 import Link from "next/link";
 import useStore from "@/lib/use-store";
@@ -57,7 +58,7 @@ export default function Home() {
             className="flex items-center rounded-full select-none space-x-1 text-sm w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 bg-white hover:text-white hover:bg-green-500 "
           >
             <span>Pick One Topic</span>
-            <HiOutlineSwitchVertical className="size-5" />
+            <LuShuffle className="size-5" />
           </button>
           <Link
             href={`/topics/${selectedTopic?.id}`}
@@ -81,7 +82,7 @@ export default function Home() {
                     className="flex flex-col p-4 space-y-4 border bg-green-50"
                   >
                     <div>#{topic.id}</div>
-                    <div className="font-normal">{topic.topic}</div>
+                    <div className="font-bold">{topic.topic}</div>
                     <div className="flex justify-between text-slate-600">
                       <span>
                         Words:{" "}
@@ -110,7 +111,7 @@ export default function Home() {
                     className="flex flex-col p-4 space-y-4 bg-white border "
                   >
                     <div>#{topic.id}</div>
-                    <div className="font-normal">{topic.topic}</div>
+                    <div className="font-bold">{topic.topic}</div>
                   </Link>
                 </li>
               ))}
