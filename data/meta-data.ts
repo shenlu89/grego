@@ -14,22 +14,22 @@ const HomePage = {
     metadataBase: new URL("https://gre.shenlu.me"),
     title: {
       default:
-        "GREEN | A tools can help you practice and prepare effectively for the GRE Analytical Writing.",
-      template: `%s | GREEN`,
+        "GRE Tools | A tools can help you practice and prepare effectively for the GRE Analytical Writing.",
+      template: `%s | GRE Tools`,
     },
     description:
       "A tools can help you practice and prepare effectively for the GRE Analytical Writing.",
     openGraph: {
-      title: "GREEN",
+      title: "GRE Tools",
       description:
         "A tools can help you practice and prepare effectively for the GRE Analytical Writing.",
       url: "https://gre.shenlu.me",
-      siteName: "GREEN",
+      siteName: "GRE Tools",
       locale: "en-US",
       type: "website",
     },
     twitter: {
-      title: "GREEN",
+      title: "GRE Tools",
       card: "summary_large_image",
     },
     robots: {
@@ -43,7 +43,7 @@ const HomePage = {
       },
     },
   },
-  title: "GREEN",
+  title: "GRE Tools",
   description:
     "A tools can help you practice and prepare effectively for the GRE Analytical Writing.",
   url: "https://gre.shenlu.me",
