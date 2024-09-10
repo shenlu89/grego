@@ -6,6 +6,8 @@ import { LuShuffle } from "react-icons/lu";
 import pool from "@/data/writing-pool.json";
 import Link from "next/link";
 import useStore from "@/lib/use-store";
+import { LuPenSquare } from "react-icons/lu";
+
 
 const randomTopic = (pool: any[]) =>
   pool[Math.floor(Math.random() * pool.length)];
@@ -65,7 +67,7 @@ export default function Home() {
             className="flex items-center rounded-full select-none space-x-1 text-sm w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 bg-white hover:text-white hover:bg-green-500 "
           >
             <span>Go to Write</span>
-            <HiArrowRight className="size-5" />
+            <LuPenSquare className="size-5" />
           </Link>
         </div>
         <hr />
