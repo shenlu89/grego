@@ -1,6 +1,6 @@
 "use client";
 import { FormEvent, useCallback, useRef, useState } from "react";
-import { HiArrowRight } from "react-icons/hi";
+import { LuPenSquare } from "react-icons/lu";
 import Link from "next/link";
 import { HiMiniMagnifyingGlass } from "react-icons/hi2";
 import { BsXCircleFill } from "react-icons/bs";
@@ -38,9 +38,8 @@ export default function Topics() {
           onClick={() => {
             setserachPosts("");
           }}
-          className={`${
-            !serachPosts && "hidden"
-          } flex right-3 top-1/2 translate-y-[-50%] absolute w-5 h-5 text-slate-400 hover:text-black cursor-pointer`}
+          className={`${!serachPosts && "hidden"
+            } flex right-3 top-1/2 translate-y-[-50%] absolute w-5 h-5 text-slate-400 hover:text-black cursor-pointer`}
         />
         <input
           ref={searchInput}
@@ -56,11 +55,10 @@ export default function Topics() {
         {filteredTopics.map((topic) => (
           <li
             key={topic.id}
-            className={`flex flex-col p-4 border space-y-4 w-full ${
-              completedTopics.find((t: any) => t.id === topic.id)
+            className={`flex flex-col p-4 border space-y-4 w-full ${completedTopics.find((t: any) => t.id === topic.id)
                 ? "bg-green-50"
                 : "bg-white"
-            }`}
+              }`}
           >
             <div className="text-lg font-bold">
               {topic?.topic.split("\n\n").map((p: string, index: number) => (
@@ -77,7 +75,7 @@ export default function Topics() {
                 className="flex items-center rounded-full select-none space-x-1 text-sm w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 bg-white hover:text-white hover:bg-green-500 "
               >
                 <span>Go to Write</span>
-                <HiArrowRight className="size-5" />
+                <LuPenSquare className="size-5" />
               </Link>
             </div>
           </li>
