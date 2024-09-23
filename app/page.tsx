@@ -1,12 +1,14 @@
 "use client";
 import { useEffect } from "react";
 import { Checkbox } from "@headlessui/react";
-import { HiArrowRight, HiCheck } from "react-icons/hi";
+import { HiCheck } from "react-icons/hi";
 import { LuShuffle } from "react-icons/lu";
 import pool from "@/data/writing-pool.json";
 import Link from "next/link";
 import useStore from "@/lib/use-store";
 import { LuPenSquare } from "react-icons/lu";
+import { FaRegStar } from "react-icons/fa6";
+
 
 
 const randomTopic = (pool: any[]) =>
@@ -31,7 +33,35 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col w-full space-y-4">
+        <div className="flex w-full justify-between font-bold items-center">
+          <div className="flex space-x-2 items-center flex-nowrap">
+            <Checkbox
+              checked={enabled}
+              onChange={setEnabled}
+              className="group size-6 cursor-pointer bg-slate-100 p-1 ring-1 ring-slate-400 data-[checked]:ring-green-500 ring-inset data-[checked]:bg-green-100"
+            >
+              <HiCheck className="hidden size-4 fill-green-500 group-data-[checked]:block" />
+            </Checkbox>
+            <span className="whitespace-nowrap">ONLY Incomplete Topics</span>
+          </div>
+          <button
+            onClick={() =>
+              setSelectedTopic(randomTopic(enabled ? incompletedTopics : pool))
+            }
+            className="flex items-center rounded select-none space-x-1 text-sm min-w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 hover:bg-green-500 bg-green-100 hover:text-white"
+          >
+            <span>PICK ONE TOPIC</span>
+            <LuShuffle className="size-5" />
+          </button>
+        </div>
         <div className="flex flex-col p-4 border bg-white space-y-4">
+          {/* <div className="flex justify-between">
+            <div>#{selectedTopic?.id}</div>
+            <button>
+              <FaRegStar className="size-5" />
+            </button>
+          </div> */}
+          {/* <hr /> */}
           <div className="text-lg font-bold">
             {selectedTopic?.topic
               ?.split("\n\n")
@@ -41,36 +71,17 @@ export default function Home() {
           </div>
           <hr />
           <div>{selectedTopic?.statements}</div>
-        </div>
-        <div className="flex justify-between font-bold items-center">
-          <div className="flex space-x-2">
-            <Checkbox
-              checked={enabled}
-              onChange={setEnabled}
-              className="group size-6 cursor-pointer bg-slate-100 p-1 ring-1 ring-slate-400 data-[checked]:ring-green-500 ring-inset data-[checked]:bg-green-100"
+          <hr />
+          <div className="flex justify-end items-center">
+            <Link
+              href={`/topics/${selectedTopic?.id}`}
+              className="flex items-center rounded-full select-none space-x-1 text-sm w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 bg-white hover:text-white hover:bg-green-500 "
             >
-              <HiCheck className="hidden size-4 fill-green-500 group-data-[checked]:block" />
-            </Checkbox>
-            <span>ONLY Incomplete Topics</span>
+              <span>Go to Write</span>
+              <LuPenSquare className="size-5" />
+            </Link>
           </div>
-          <button
-            onClick={() =>
-              setSelectedTopic(randomTopic(enabled ? incompletedTopics : pool))
-            }
-            className="flex items-center rounded-full select-none space-x-1 text-sm w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 bg-white hover:text-white hover:bg-green-500 "
-          >
-            <span>Pick One Topic</span>
-            <LuShuffle className="size-5" />
-          </button>
-          <Link
-            href={`/topics/${selectedTopic?.id}`}
-            className="flex items-center rounded-full select-none space-x-1 text-sm w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 bg-white hover:text-white hover:bg-green-500 "
-          >
-            <span>Go to Write</span>
-            <LuPenSquare className="size-5" />
-          </Link>
         </div>
-        <hr />
         <div className="flex justify-between space-x-4">
           <div className="flex flex-col w-1/2 items-center">
             <h2 className="text-xl font-bold mb-4">
