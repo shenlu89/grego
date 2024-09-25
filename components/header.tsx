@@ -13,7 +13,7 @@ const Navbar: NextPage = () => {
         <Link href={"/"} className="flex text-green-500 space-x-1 items-center">
           <img src="/logo.svg" className="flex size-8" />
           <span className="text-xl font-extrabold tracking-tighter self-center pr-8">
-            GRE Tools
+            GRE GO
           </span>
         </Link>
         <nav className="flex">
@@ -21,10 +21,9 @@ const Navbar: NextPage = () => {
             {HeaderNavLinks?.map((nav) => (
               <li key={nav?.title}>
                 <Link
-                  className={`flex px-3 py-2 rounded items-center space-x-2 hover:text-green-500 justify-center outline-none ${
-                    pathname?.includes(nav?.title.toLowerCase()) &&
+                  className={`flex px-3 py-2 rounded items-center space-x-2 hover:text-green-500 justify-center outline-none ${pathname?.includes(nav?.title.toLowerCase()) &&
                     "text-green-500"
-                  }`}
+                    }`}
                   href={nav?.href}
                 >
                   <span>{nav?.title}</span>
