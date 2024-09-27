@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 export default function NotFound() {
   return (
-    <section className='flex flex-col h-full items-center justify-center space-y-4'>
+    <section className='flex flex-col h-full items-center mt-16 space-y-4'>
+      <Image src={'/logo.svg'} alt={''} width={80} height={80} />
       <h1 className='font-extrabold text-5xl tracking-tight'>404</h1>
       <span className='text-gray-600 dark:text-gray-400'>
         Page Not Found. Go Back to{' '}
@@ -15,7 +16,13 @@ export default function NotFound() {
         </Link>{' '}
         page.
       </span>
-      <h1>Mathcheap.xyz Ads</h1>
+      <Image
+        width={150}
+        height={150}
+        src="/bmc_qr.png"
+        alt={""}
+        priority
+      />
     </section>
   );
 }
