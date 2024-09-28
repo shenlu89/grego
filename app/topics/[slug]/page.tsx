@@ -71,7 +71,7 @@ export default function WritingBoard({ params }: any) {
           <hr />
           <p>{selectedTopic?.statements}</p>
         </div>
-        <hr />
+        {/* <hr /> */}
         <div className="flex justify-between">
           <div className="flex space-x-1">
             <span>Words:</span>
@@ -91,11 +91,11 @@ export default function WritingBoard({ params }: any) {
           value={text} // Set the value to the state variable
           onChange={(e) => setText(e.target.value)}
         />
-        <div className="flex w-full justify-between">
-          <button className="flex font-bold text-sm items-center space-x-2 w-fit justify-center rounded border border-slate-600 bg-slate-100 px-3 py-2 text-slate-600 hover:text-white hover:bg-slate-600 ">
+        <div className="flex w-full justify-end">
+          {/* <button className="flex font-bold text-sm items-center space-x-2 w-fit justify-center rounded border border-slate-600 bg-slate-100 px-3 py-2 text-slate-600 hover:text-white hover:bg-slate-600 ">
             <span>History</span>
             <GoHistory className="size-5" />
-          </button>
+          </button> */}
           <button
             onClick={handleSave}
             className="px-3 py-2 text-sm items-center border border-green-500 flex space-x-2 hover:bg-green-500 hover:text-white bg-green-100 rounded text-green-500 font-bold"
