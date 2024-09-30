@@ -14,22 +14,22 @@ const HomePage = {
     metadataBase: new URL("https://gre.shenlu.me"),
     title: {
       default:
-        "GRE Tools | A tools can help you practice and prepare effectively for the GRE Analytical Writing.",
-      template: `%s | GRE Tools`,
+        "GRE GO | A toolkit can help you practice and prepare effectively for the GRE Analytical Writing.",
+      template: `%s | GRE GO`,
     },
     description:
-      "A tools can help you practice and prepare effectively for the GRE Analytical Writing.",
+      "GRE GO is a toolkit that can help you practice and prepare effectively for the GRE Analytical Writing.",
     openGraph: {
-      title: "GRE Tools",
+      title: "GRE GO",
       description:
-        "A tools can help you practice and prepare effectively for the GRE Analytical Writing.",
+        "GRE GO is a toolkit that can help you practice and prepare effectively for the GRE Analytical Writing.",
       url: "https://gre.shenlu.me",
-      siteName: "GRE Tools",
+      siteName: "GRE GO",
       locale: "en-US",
       type: "website",
     },
     twitter: {
-      title: "GRE Tools",
+      title: "GRE GO",
       card: "summary_large_image",
     },
     robots: {
@@ -43,9 +43,9 @@ const HomePage = {
       },
     },
   },
-  title: "GRE Tools",
+  title: "GRE GO",
   description:
-    "A tools can help you practice and prepare effectively for the GRE Analytical Writing.",
+    "GRE GO is a toolkit that can help you practice and prepare effectively for the GRE Analytical Writing.",
   url: "https://gre.shenlu.me",
   avatar_url: "/images/logo.svg",
 };
@@ -60,7 +60,7 @@ const SearchPage = {
 const AboutPage = {
   metadata: {
     title: "About",
-    description: "More detailed information about Remotea.io.",
+    description: "More detailed information about GRE GO.",
   },
 };
 
