@@ -3,8 +3,11 @@ import { persist, createJSONStorage } from "zustand/middleware";
 import pool from "@/data/writing-pool.json";
 
 const getInitialEnabledState = () => {
-  const storedState = localStorage.getItem("writing-storage");
-  return storedState ? JSON.parse(storedState).enabled ?? false : false;
+  if (typeof window !== "undefined" && localStorage.getItem("writing-storage")) {
+    const storedState = localStorage.getItem("writing-storage");
+    return storedState ? JSON.parse(storedState).enabled ?? false : false;
+  }
+  return false; // Default value for non-browser environments
 };
 
 const useStore = create(
