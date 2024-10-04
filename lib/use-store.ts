@@ -5,7 +5,7 @@ import pool from "@/data/writing-pool.json";
 const getInitialEnabledState = () => {
   if (typeof window !== "undefined" && localStorage.getItem("writing-storage")) {
     const storedState = localStorage.getItem("writing-storage");
-    return storedState ? JSON.parse(storedState).enabled ?? false : false;
+    return storedState ? JSON.parse(storedState)?.state?.enabled ?? false : false;
   }
   return false; // Default value for non-browser environments
 };
