@@ -2,18 +2,10 @@ import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import pool from "@/data/writing-pool.json";
 
-const getInitialEnabledState = () => {
-  if (typeof window !== "undefined" && localStorage.getItem("writing-storage")) {
-    const storedState = localStorage.getItem("writing-storage");
-    return storedState ? JSON.parse(storedState)?.state?.enabled ?? false : false;
-  }
-  return false; // Default value for non-browser environments
-};
-
 const useStore = create(
   persist(
     (set) => ({
-      enabled: getInitialEnabledState(),
+      enabled: false,
       selectedTopic: null,
       completedTopics: [],
       incompletedTopics: pool, // Initialize with an empty array
