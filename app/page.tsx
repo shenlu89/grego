@@ -9,8 +9,6 @@ import useStore from "@/lib/use-store";
 import { LuPenSquare } from "react-icons/lu";
 import { FaRegStar } from "react-icons/fa6";
 
-
-
 const randomTopic = (pool: any[]) =>
   pool[Math.floor(Math.random() * pool.length)];
 
@@ -25,10 +23,8 @@ export default function Home() {
   }: any = useStore();
 
   useEffect(() => {
-    if (!selectedTopic) {
-      setSelectedTopic(randomTopic(enabled ? incompletedTopics : pool));
-    }
-  }, [selectedTopic, enabled, incompletedTopics, setSelectedTopic]);
+    setSelectedTopic(randomTopic(enabled ? incompletedTopics : pool));
+  }, [enabled, incompletedTopics, setSelectedTopic]);
 
   return (
     <>
@@ -55,13 +51,6 @@ export default function Home() {
           </button>
         </div>
         <div className="flex flex-col p-4 border bg-white space-y-4">
-          {/* <div className="flex justify-between">
-            <div>#{selectedTopic?.id}</div>
-            <button>
-              <FaRegStar className="size-5" />
-            </button>
-          </div> */}
-          {/* <hr /> */}
           <div className="text-lg font-bold">
             {selectedTopic?.topic
               ?.split("\n\n")
@@ -72,14 +61,23 @@ export default function Home() {
           <hr />
           <div>{selectedTopic?.statements}</div>
           <hr />
-          <div className="flex justify-end items-center">
-            <Link
-              href={`/topics/${selectedTopic?.id}`}
-              className="flex items-center rounded-full select-none space-x-1 text-sm w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 bg-white hover:text-white hover:bg-green-500 "
-            >
-              <span>Go to Write</span>
-              <LuPenSquare className="size-5" />
-            </Link>
+          <div className="flex justify-between items-center">
+            <div>#{selectedTopic?.id}</div>
+            <div className="flex items-center space-x-2 justify-between">
+              <button
+                className="flex items-center rounded-full select-none space-x-1 text-sm w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 bg-white hover:text-white hover:bg-green-500 "
+              >
+                <span>Save</span>
+                <FaRegStar className="size-5" />
+              </button>
+              <Link
+                href={`/topics/${selectedTopic?.id}`}
+                className="flex items-center rounded-full select-none space-x-1 text-sm w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 bg-white hover:text-white hover:bg-green-500 "
+              >
+                <span>Go to Write</span>
+                <LuPenSquare className="size-5" />
+              </Link>
+            </div>
           </div>
         </div>
         <div className="flex justify-between space-x-4">
