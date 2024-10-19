@@ -37,7 +37,7 @@ export default function About() {
             href="mailto: shelu89dev@gmail.com"
             className="underline-offset-[3px] hover:underline hover:text-black"
           >
-            shelu89dev@gmail.com
+            shenlu89dev@gmail.com
           </Link>
         </li>
       </ul>
