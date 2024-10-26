@@ -31,15 +31,15 @@ export default function WritingBoard({ params }: any) {
         content: text,
         lastdate: new Date().toLocaleString(),
       });
-      console.log(1);
     }
   };
 
   useEffect(() => {
+    setText(selectedTopic.content || "");
     if (textareaRef.current) {
-      textareaRef?.current?.focus();
+      textareaRef.current.focus();
     }
-  }, []);
+  }, [selectedTopic]);
 
   return (
     <>
