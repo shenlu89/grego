@@ -83,6 +83,24 @@ export default function Home() {
         <div className="flex justify-between space-x-4">
           <div className="flex flex-col w-1/2 items-center">
             <h2 className="text-xl font-bold mb-4">
+              Incomplete Topics ({incompletedTopics.length})
+            </h2>
+            <ul className="flex flex-col space-y-4">
+              {incompletedTopics.map((topic: any) => (
+                <li key={topic.id}>
+                  <Link
+                    href={`/topics/${topic.id}`}
+                    className="flex flex-col p-4 space-y-4 bg-white border "
+                  >
+                    <div>#{topic.id}</div>
+                    <div className="font-bold">{topic.topic}</div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="flex flex-col w-1/2 items-center">
+            <h2 className="text-xl font-bold mb-4">
               Completed Topics ({completedTopics.length})
             </h2>
             <ul className="flex flex-col space-y-4">
@@ -105,24 +123,6 @@ export default function Home() {
                       </span>
                       <span>{topic.lastdate}</span>
                     </div>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="flex flex-col w-1/2 items-center">
-            <h2 className="text-xl font-bold mb-4">
-              Incomplete Topics ({incompletedTopics.length})
-            </h2>
-            <ul className="flex flex-col space-y-4">
-              {incompletedTopics.map((topic: any) => (
-                <li key={topic.id}>
-                  <Link
-                    href={`/topics/${topic.id}`}
-                    className="flex flex-col p-4 space-y-4 bg-white border "
-                  >
-                    <div>#{topic.id}</div>
-                    <div className="font-bold">{topic.topic}</div>
                   </Link>
                 </li>
               ))}
