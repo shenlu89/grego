@@ -1,380 +1,950 @@
 [
   {
     "id": 1,
-    "topic": "To understand the most important characteristics of a society, one must study its major cities.",
-    "translation": "要了解一个社会最重要的特征，就必须研究它的主要城市。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+    "topic": "Governments should place few, if any, restrictions on scientific research and development.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 2,
-    "topic": "Scandals are useful because they focus our attention on problems in ways that no speaker or reformer ever could.",
-    "translation": "丑闻是有用的，因为它们以演讲者或改革者无法做到的方式将我们的注意力集中在问题上。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+    "topic": "The best way to teach is to praise positive actions and ignore negative ones.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 3,
-    "topic": "Claim: Governments must ensure that their major cities receive the financial support they need in order to thrive.\n\nReason: It is primarily in cities that a nation's cultural traditions are preserved and generated.",
-    "translation": "主张：政府必须确保其主要城市获得它们所需的财政支持，以便蓬勃发展。\n\n理由：一个国家的文化传统主要是在城市中得以保存和产生。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "Governments should offer college and university education free of charge to all students.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 4,
-    "topic": "Claim: In any field — business, politics, education, government — those in power should step down after five years.\n\nReason: The surest path to success for any enterprise is revitalization through new leadership.",
-    "translation": "主张：在任何领域——商业、政治、教育、政府——掌权者应该在五年后下台。\n\n理由：任何企业取得成功的最可靠路径是通过新领导层的更新来实现振兴。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "The luxuries and conveniences of contemporary life prevent people from developing into truly strong and independent individuals.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 5,
     "topic": "In any field of inquiry, the beginner is more likely than the expert to make important contributions.",
-    "translation": "在任何研究领域中，初学者比专家更有可能做出重要的贡献。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 6,
-    "topic": "People's behavior is largely determined by forces not of their own making.",
-    "translation": "人们的行为在很大程度上是由并非由他们自己创造的力量所决定的。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "The surest indicator of a great nation is represented not by the achievements of its rulers, artists, or scientists, but by the general welfare of its people.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 7,
-    "topic": "Governments should offer a free university education to any student who has been admitted to a university but who cannot afford the tuition.",
-    "translation": "政府应该为任何被大学录取但无法支付学费的学生提供免费的大学教育。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+    "topic": "The best way to teach — whether as an educator, employer, or parent — is to praise positive actions and ignore negative ones.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
   },
   {
     "id": 8,
-    "topic": "Universities should require every student to take a variety of courses outside the student's field of study.",
-    "translation": "大学应该要求每个学生修读一系列与其专业领域无关的课程。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+    "topic": "Teachers' salaries should be based on their students' academic performance.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
   },
   {
     "id": 9,
-    "topic": "Some people believe that in order to be effective, political leaders must yield to public opinion and abandon principle for the sake of compromise. Others believe that the most essential quality of an effective leader is the ability to remain consistently committed to particular principles and objectives.",
-    "translation": "有些人认为，要想有效果，政治领导者必须顺应舆论，为了妥协而放弃原则。另一些人认为，一个有效领导者最重要的品质是始终如一地坚持特定的原则和目标。",
-    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+    "topic": "Society should make efforts to save endangered species only if the potential extinction of those species is the result of human activities.",
+    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.",
+    "category": 3
   },
   {
     "id": 10,
-    "topic": "Formal education tends to restrain our minds and spirits rather than set them free.",
-    "translation": "正规教育往往限制了我们的思维和精神，而非解放它们。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "College students should base their choice of a field of study on the availability of jobs in that field.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
   },
   {
     "id": 11,
-    "topic": "The well-being of a society is enhanced when many of its people question authority.",
-    "translation": "当社会中有很多人质疑权威时，社会的福祉会得到提升。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "As we acquire more knowledge, things do not become more comprehensible, but more complex and mysterious.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 12,
-    "topic": "Governments should focus on solving the immediate problems of today rather than on trying to solve the anticipated problems of the future.",
-    "translation": "政府应该专注于解决当下的紧急问题，而不是试图解决未来预期的问题。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "In any situation, progress requires discussion among people who have contrasting points of view.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 13,
-    "topic": "Some people believe that college students should consider only their own talents and interests when choosing a field of study. Others believe that college students should base their choice of a field of study on the availability of jobs in that field.",
-    "translation": "有些人认为，大学生选择专业时应该只考虑自己的才能和兴趣。另一些人认为，大学生选择专业应该基于该领域的就业机会。",
-    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+    "topic": "Educational institutions should dissuade students from pursuing fields of study in which they are unlikely to succeed.",
+    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.",
+    "category": 3
   },
   {
     "id": 14,
-    "topic": "The luxuries and conveniences of contemporary life prevent people from developing into truly strong and independent individuals.",
-    "translation": "当代生活的奢侈品和便利设施阻碍了人们成长为真正坚强独立的个体。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position."
+    "topic": "Governments should not fund any scientific research whose consequences are unclear.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 15,
-    "topic": "In any field of inquiry, the beginner is more likely than the expert to make important contributions.",
-    "translation": "在任何探究领域中，初学者相较于专家更有可能做出重要的贡献。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Society should identify those children who have special talents and provide training for them at an early age to develop their talents.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 16,
-    "topic": "The surest indicator of a great nation is represented not by the achievement of its rulers, artists, or scientists, but by the general welfare of its people.",
-    "translation": "一个伟大国家的最可靠指标不是由其统治者、艺术家或科学家的成就所代表，而是由其人民的整体福祉所代表。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "It is primarily through our identification with social groups that we define ourselves.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 17,
-    "topic": "Teachers' salaries should be based on their students' academic performance.",
-    "translation": "老师的工资应该基于他们学生的学术表现。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+    "topic": "College students should be encouraged to pursue subjects that interest them rather than the courses that seem most likely to lead to jobs.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 18,
-    "topic": "Society should make efforts to save endangered species only if the potential extinction of those species is the result of human activities. ",
-    "translation": "社会应该只在濒临灭绝的物种是由人类活动导致的情况下，才努力拯救这些物种。",
-    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position."
+    "topic": "Claim: When planning courses, educators should take into account the interests and suggestions of their students.\n\nReason: Students are more motivated to learn when they are interested in what they are studying.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
   },
   {
     "id": 19,
-    "topic": "As we acquire more knowledge, things do not become more comprehensible, but more complex and mysterious. ",
-    "translation": "随着我们获取更多知识，事物变得并不更易理解，反而更加复杂和神秘。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "The greatness of individuals can be decided only by those who live after them, not by their contemporaries.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 20,
-    "topic": "Governments should not fund any scientific research whose consequences are unclear.",
-    "translation": "政府不应资助任何后果不明确的科学研究。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Students should always question what they are taught instead of accepting it passively.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 21,
-    "topic": "Society should identify those children who have special talents and provide training for them at an early age to develop their talents. ",
-    "translation": "社会应该识别出有特殊才能的儿童，并在早期为他们提供培训，发展他们的才能。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "The increasingly rapid pace of life today causes more problems than it solves.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 22,
-    "topic": "It is primarily through our identification with social groups that we define ourselves.",
-    "translation": "我们主要是通过对社会群体的认同来定义自己。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Claim: It is no longer possible for a society to regard any living man or woman as a hero.\n\nReason: The reputation of anyone who is subjected to media scrutiny will eventually be diminished.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
   },
   {
     "id": 23,
-    "topic": "The greatness of individuals can be decided only by those who live after them, not by their contemporaries.",
-    "translation": "个人的伟大只能由后人评定，而不是由他们同时代的人决定。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Competition for high grades seriously limits the quality of learning at all levels of education.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 24,
-    "topic": "Claim: It is no longer possible for a society to regard any living man or woman as a hero.\n\nReason: The reputation of anyone who is subjected to media scrutiny will eventually be diminished.",
-    "translation": "主张：社会不再可能将任何活着的男人或女人视为英雄。\n\n理由：受到媒体审查的任何人的声誉最终都会受损。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "Universities should require every student to take a variety of courses outside the student's field of study.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 25,
-    "topic": "Competition for high grades seriously limits the quality of learning at all levels of education.",
-    "translation": "在各个教育层次上，为了高分而竞争严重限制了学习质量。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Educators should find out what students want included in the curriculum and then offer it to them.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 26,
-    "topic": "Claim: We can usually learn much more from people whose views we share than from those whose views contradict our own.\n\nReason: Disagreement can cause stress and inhibit learning.",
-    "translation": "我们主要是通过对社会群体的认同来定义自己。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "Educators should teach facts only after their students have studied the ideas, trends, and concepts that help explain those facts.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 27,
-    "topic": "Young people should be encouraged to pursue long-term realistic goals rather than seek immediate fame and recognition.",
-    "translation": "应该鼓励年轻人追求长期现实的目标，而不是追求即时的名望和认可。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Claim: We can usually learn much more from people whose views we share than from those whose views contradict our own.\n\nReason: Disagreement can cause stress and inhibit learning.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
   },
   {
     "id": 28,
-    "topic": "If a goal is worthy, then any means taken to attain it are justifiable.",
-    "translation": "如果一个目标是值得的，那么为达成它采取的任何手段都是合理的。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Government officials should rely on their own judgment rather than unquestioningly carry out the will of the people they serve.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 29,
-    "topic": "In order to become well-rounded individuals, all college students should be required to take courses in which they read poetry, novels, mythology, and other types of imaginative literature.",
-    "translation": "为了成为全面发展的个体，所有大学生都应该被要求修读包括诗歌、小说、神话和其他类型的想象文学的课程。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Young people should be encouraged to pursue long-term, realistic goals rather than seek immediate fame and recognition.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 30,
-    "topic": "The main benefit of the study of history is to dispel the illusion that people living now are significantly different from people who lived in earlier times. ",
-    "translation": "历史研究的主要好处在于消除这样一个错觉，即现在生活的人与过去生活的人有明显的不同。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "The best way to teach is to praise positive actions and ignore negative ones.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 31,
-    "topic": "Learning is primarily a matter of personal discipline; students cannot be motivated by school or college alone. ",
-    "translation": "学习主要是个人自律的问题；学生不能仅仅靠学校或大学来获得动力。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "If a goal is worthy, then any means taken to attain it are justifiable.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 32,
-    "topic": "Scientists and other researchers should focus their research on areas that are likely to benefit the greatest number of people.",
-    "translation": "科学家和其他研究人员应该将他们的研究重点放在可能造福最多人的领域。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "In order to become well-rounded individuals, all college students should be required to take courses in which they read poetry, novels, mythology, and other types of imaginative literature.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 33,
-    "topic": "Politicians should pursue common ground and reasonable consensus rather than elusive ideals.",
-    "translation": "政治家应该追求共同点和合理共识，而不是难以实现的理想。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "In order for any work of art — for example, a film, a novel, a poem, or a song — to have merit, it must be understandable to most people.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 34,
-    "topic": "People should undertake risky action only after they have carefully considered its consequences.",
-    "translation": "人们在经过仔细考虑其后果之后，才应采取冒险行动。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Many important discoveries or creations are accidental: it is usually while seeking the answer to one question that we come across the answer to another.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 35,
-    "topic": "Leaders are created by the demands that are placed on them.",
-    "translation": "领袖是由对他们施加的需求所塑造的。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "The main benefit of the study of history is to dispel the illusion that people living now are significantly different from people who lived in earlier times.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 36,
-    "topic": "There is little justification for society to make extraordinary efforts — especially at a great cost in money and jobs — to save endangered animal or plant species.",
-    "translation": "社会没有太多理由进行非常努力的尝试——尤其是在花费大量金钱和就业机会的情况下——来拯救濒危动植物物种。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Learning is primarily a matter of personal discipline; students cannot be motivated by school or college alone.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 37,
-    "topic": "The most effective way to understand contemporary culture is to analyze the trends of its youth.",
-    "translation": "理解当代文化的最有效方式是分析年轻人的趋势。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Scientists and other researchers should focus their research on areas that are likely to benefit the greatest number of people.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 38,
-    "topic": "People's attitude are determined more by their immediate situation or surroundings than by society as whole.",
-    "translation": "人们的态度更多是由他们的即时情境或周围环境决定的，而不是整个社会所决定的。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Politicians should pursue common ground and reasonable consensus rather than elusive ideals.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 39,
-    "topic": "All parents should be required to volunteer time to their children's schools.",
-    "translation": "所有父母都应该被要求自愿为自己孩子的学校提供时间。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "People should undertake risky action only after they have carefully considered its consequences.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 40,
-    "topic": "Colleges and univeristies should require their students to spend at least one semester studying in a foreign country.",
-    "translation": "大学应该要求他们的学生至少在外国留学一个学期。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Leaders are created by the demands that are placed on them.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 41,
-    "topic": "Claim: Many problems of modern society cannot be solved by laws and the legal system.\n\nReason: Laws cannot change what is in people's hearts or minds.",
-    "translation": "主张：现代社会的许多问题不能通过法律和法律制度来解决。\n\n理由：法律不能改变人们内心或思想中的东西。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "There is little justification for society to make extraordinary efforts — especially at a great cost in money and jobs — to save endangered animal or plant species.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 42,
-    "topic": "The primary goal of technological advancement should be to increase people's efficiency so that they have more leisure time.",
-    "translation": "科技进步的主要目标应该是提高人们的效率，让他们有更多的休闲时间。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "The human mind will always be superior to machines because machines are only tools of human minds.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 43,
-    "topic": "Unfortunately, in contemporary society, creating an appealing image has become more important than the reality or truth behind that image.",
-    "translation": "不幸的是，在当代社会，创造出吸引人的形象变得比这种形象背后的现实或真相更重要。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "People who are the most deeply committed to an idea or policy are also the most critical of it.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 44,
-    "topic": "The effectiveness of a country's leaders is best measured by examining the well-being of that country's citizens.",
-    "translation": "一个国家领导人的有效性最好通过检查该国公民的幸福来衡量。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+    "topic": "Some people believe that society should try to save every plant and animal species, despite the expense to humans in effort, time, and financial well-being. Others believe that society need not make extraordinary efforts, especially at a great cost in money and jobs, to save endangered species.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
   },
   {
     "id": 45,
-    "topic": "Although innovations such as video, computers, and the Internet seem to offer schools improved methods for instructing students, these technologies all too often distract form real learning. ",
-    "translation": "虽然视频、计算机和互联网等创新似乎为学校提供了改进学生教学的方法，但这些技术往往会分散真正的学习。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Some people believe that the purpose of education is to free the mind and the spirit. Others believe that formal education tends to restrain our minds and spirits rather than set them free.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
   },
   {
     "id": 46,
-    "topic": "To be an effective leader, a public official must maintain the highest ethical and moral standards.",
-    "translation": "要成为一名有效的领导者，一名公职人员必须保持最高的道德和伦理标准。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+    "topic": "Some people believe it is often necessary, even desirable, for political leaders to withhold information from the public. Others believe that the public has a right to be fully informed.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
   },
   {
     "id": 47,
-    "topic": "Claim: Imagination is a more valuable asset than experience.\n\nReason: People who lack experience are free to imagine what is possible without the constraints of established habits and attitudes.",
-    "translation": "主张：想象力比经验更有价值。\n\n理由：缺乏经验的人可以在没有已形成的习惯和态度限制下自由想象可能的事物。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "Claim: Universities should require every student to take a variety of courses outside the student's major field of study.\n\nReason: Acquiring knowledge of various academic disciplines is the best way to become truly educated.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
   },
   {
     "id": 48,
-    "topic": "Critical judgment of work in any given field has little value unless it comes from someone who is an expert in that field.",
-    "translation": "对任何领域工作进行的批判性判断，除非来自该领域的专家，否则价值甚微。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Young people should be encouraged to pursue long-term, realistic goals rather than seek immediate fame and recognition.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 49,
-    "topic": "Claim: Major policy decisions should always be left to politicians and other government experts.\n\nReason: Politicians and other government experts are more informed and thus have better judgment and perspective than do members of the general public.",
-    "translation": "主张：重大政策决策应始终由政治家和其他政府专家来决定。\n\n理由：政治家和其他政府专家拥有更多信息，因此比普通公众有更好的判断和视角。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "Governments should not fund any scientific research whose consequences are unclear.",
+    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.",
+    "category": 3
   },
   {
     "id": 50,
-    "topic": "It is more harmful to compromise one's own beliefs than to adhere to them.",
-    "translation": "违背自己的信仰比坚持它们更具有害。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "Knowing about the past cannot help people to make important decisions today.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 51,
-    "topic": "No field of study can advance significantly unless it incorporates knowledge and experience from outside that field.",
-    "translation": "除非吸收来自该领域之外的知识和经验，否则任何研究领域都无法取得重大进展。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "In this age of intensive media coverage, it is no longer possible for a society to regard any living man or woman as a hero.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 52,
-    "topic": "We learn our most valuable lessons in life from struggling with our limitations rather than from enjoying our successes.",
-    "translation": "我们从与自己的局限性斗争中学到的人生教训比从享受成功中学到的更有价值。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position."
+    "topic": "We can usually learn much more from people whose views we share than from people whose views contradict our own.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 53,
-    "topic": "Claim: while boredom is often expressed with a sense of self-satisfaction, it should really be a source of embarrassment.\n\nReason: Boredom arises from a lack of imagination and self-motivation.",
-    "translation": "主张：虽然无聊常常带有一种自我满足感，但实际上应该成为一种尴尬的源泉。\n\n理由：无聊源于缺乏想象力和自我激励。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "The most effective way to understand contemporary culture is to analyze the trends of its youth.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 54,
-    "topic": "Some people believe that the most important qualities of an effective teacher are understanding and empathy. Others believe that it is more important for teachers to be rigorous and demanding in their expectations for students.",
-    "translation": "有些人认为，一个有效教师最重要的品质是理解和同情心。而另一些人认为，对学生的期望要严格而要求高。",
-    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+    "topic": "People's attitudes are determined more by their immediate situation or surroundings than by society as a whole.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
   },
   {
     "id": 55,
-    "topic": "Claim: Though often considered an objective pursuit, learning about the historical past requires creativity.\n\nReason: Because we can never know the past directly, we must reconstruct it by imaginatively interpreting historical accounts, documents, and artifacts.",
-    "translation": "主张：尽管通常被认为是一种客观追求，但学习历史过去需要创造力。\n\n理由：因为我们永远无法直接了解过去，我们必须通过富有想象力地解释历史记载、文件和文物来重建它。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "Nations should suspend government funding for the arts when significant numbers of their citizens are hungry or unemployed.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 56,
-    "topic": "Claim: No act is done purely for the benefit of others.\n\nReason: All actions -- even those that seem to be done for other people -- are based on self-interest.",
-    "translation": "主张：没有任何行为是纯粹为了他人的利益。\n\n理由：所有的行为——即使看起来是为他人而做的——都基于自身利益。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "All parents should be required to volunteer time to their children's schools.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 57,
-    "topic": "Claim: In any situation, the best way to persuade other people is to present them with facts and statistics rather than with emotional arguments.\n\nReason: Facts are objective, so they are more persuasive than subjective appeals. ",
-    "translation": "主张：在任何情况下，说服别人的最佳方式是向他们提供事实和统计数据，而不是情感论证。\n\n理由：事实是客观的，因此比主观的说辞更具有说服力。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "Colleges and universities should require their students to spend at least one semester studying in a foreign country.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 58,
-    "topic": "Some people believe that success in creative fields, such as painting, fiction writing, and filmmaking, primarily requires hard work and perseverance. Others believe that such success mainly requires innate talents that cannot be learned.",
-    "translation": "有些人认为，在创意领域取得成功，如绘画、小说写作和电影制作，主要需要努力和毅力。另一些人认为，这种成功主要需要天赋，而这是无法学习的。",
-    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+    "topic": "Teachers' salaries should be based on the academic performance of their students.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
   },
   {
     "id": 59,
-    "topic": "In business, education, and government, it is always appropriate to remain skeptical of new leaders until those leaders show that they are worthy of trust.",
-    "translation": "在商业、教育和政府领域，对新领导持怀疑态度直到他们证明值得信任是合适的。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position."
+    "topic": "It is no longer possible for a society to regard any living man or woman as a hero.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
   },
   {
     "id": 60,
-    "topic": "Claim: Group assignments that students must work together to complete should replace a substantial amount of traditional lecture-based instruction in college and university courses.\n\nReason: It is vital for students to gain experience collaborating with peers to study a topic and to achieve a common goal.",
-    "translation": "主张：学生必须合作完成的小组作业应该取代大量传统的以讲座为基础的大学课程教学。\n\n理由：学生获得与同龄人合作研究主题并实现共同目标的经验是至关重要的。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "topic": "Some people believe that in order to thrive, a society must put its own overall success before the well-being of its individual citizens. Others believe that the well-being of a society can only be measured by the general welfare of all its people.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
   },
   {
     "id": 61,
-    "topic": "Some people believe that it is helpful to view a challenging situation as an opportunity for personal growth. Others believe that reimagining challenging situations this way occupies too much of the focus one needs to face challenges effectively.",
-    "translation": "有些人认为，将困难情况视为个人成长的机会是有帮助的。另一些人认为，以这种方式重新想象困难情况会占据太多应对挑战所需的关注。",
-    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+    "topic": "Claim: Any piece of information referred to as a fact should be mistrusted, since it may well be proven false in the future.\n\nReason: Much of the information that people assume is factual actually turns out to be inaccurate.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
   },
   {
     "id": 62,
-    "topic": "Some people believe that traveling to and living in numerous places increases one's ability to relate and connect to other people. Others believe that this ability is better cultivated by living in one place and developing a deep understanding of that community.",
-    "translation": "有些人认为，到不同地方旅行和居住可以增强与他人建立联系和沟通的能力。另一些人认为，通过居住在一个地方并深入了解该社区，可以更好地培养这种能力。",
-    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented."
+    "topic": "Claim: Nations should suspend government funding for the arts when significant numbers of their citizens are hungry or unemployed.\n\nReason: It is inappropriate — and, perhaps, even cruel — to use public resources to fund the arts when people's basic needs are not being met.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
   },
   {
     "id": 63,
+    "topic": "Claim: Many problems of modern society cannot be solved by laws and the legal system.\n\nReason: Laws cannot change what is in people's hearts or minds.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 64,
+    "topic": "Educators should take students' interests into account when planning the content of the courses they teach.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
+  },
+  {
+    "id": 65,
+    "topic": "The primary goal of technological advancement should be to increase people's efficiency so that they have more leisure time.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 66,
+    "topic": "Educators should base their assessment of students' learning not on students' grasp of facts but on the ability to explain the ideas, trends, and concepts that those facts illustrate.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
+  },
+  {
+    "id": 67,
+    "topic": "Unfortunately, in contemporary society, creating an appealing image has become more important than the reality or truth behind that image.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 68,
+    "topic": "The effectiveness of a country's leaders is best measured by examining the well-being of that country's citizens.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 69,
+    "topic": "All parents should be required to volunteer time to their children's schools.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 70,
+    "topic": "A nation should require all of its students to study the same national curriculum until they enter college.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 71,
+    "topic": "Colleges and universities should require their students to spend at least one semester studying in a foreign country.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 72,
+    "topic": "Educational institutions should actively encourage their students to choose fields of study in which jobs are plentiful.",
+    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.",
+    "category": 3
+  },
+  {
+    "id": 73,
+    "topic": "People's behavior is largely determined by forces not of their own making.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 74,
+    "topic": "Colleges and universities should require their students to spend at least one semester studying in a foreign country.",
+    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.",
+    "category": 3
+  },
+  {
+    "id": 75,
+    "topic": "Although innovations such as video, computers, and the Internet seem to offer schools improved methods for instructing students, these technologies all too often distract from real learning.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 76,
+    "topic": "Universities should require every student to take a variety of courses outside the student's field of study.",
+    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.",
+    "category": 3
+  },
+  {
+    "id": 77,
+    "topic": "The best ideas arise from a passionate interest in commonplace things.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 78,
+    "topic": "To be an effective leader, a public official must maintain the highest ethical and moral standards.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 79,
+    "topic": "Claim: Imagination is a more valuable asset than experience.\n\nReason: People who lack experience are free to imagine what is possible without the constraints of established habits and attitudes.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 80,
+    "topic": "In most professions and academic fields, imagination is more important than knowledge.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 81,
+    "topic": "To be an effective leader, a public official must maintain the highest ethical and moral standards.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 82,
+    "topic": "Critical judgment of work in any given field has little value unless it comes from someone who is an expert in that field.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 83,
+    "topic": "Some people believe that scientific discoveries have given us a much better understanding of the world around us. Others believe that science has revealed to us that the world is infinitely more complex than we ever realized.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 84,
+    "topic": "Critical judgment of work in any given field has little value unless it comes from someone who is an expert in that field.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 85,
+    "topic": "In any profession — business, politics, education, government — those in power should step down after five years.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 86,
+    "topic": "Requiring university students to take a variety of courses outside their major fields of study is the best way to ensure that students become truly educated.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 87,
+    "topic": "Claim: The surest indicator of a great nation is not the achievements of its rulers, artists, or scientists.\n\nReason: The surest indicator of a great nation is actually the welfare of all its people.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 88,
+    "topic": "Any leader who is quickly and easily influenced by shifts in popular opinion will accomplish little.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 89,
+    "topic": "Government officials should rely on their own judgment rather than unquestioningly carry out the will of the people whom they serve.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 90,
+    "topic": "A nation should require all of its students to study the same national curriculum until they enter college.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 91,
+    "topic": "It is primarily in cities that a nation's cultural traditions are generated and preserved.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 92,
+    "topic": "We can learn much more from people whose views we share than from people whose views contradict our own.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 93,
+    "topic": "When old buildings stand on ground that modern planners feel could be better used for modern purposes, modern development should be given precedence over the preservation of historic buildings.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 94,
+    "topic": "Claim: The surest indicator of a great nation must be the achievements of its rulers, artists, or scientists.\n\nReason: Great achievements by a nation's rulers, artists, or scientists will ensure a good life for the majority of that nation's people.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 95,
+    "topic": "Some people claim that you can tell whether a nation is great by looking at the achievements of its rulers, artists, or scientists. Others argue that the surest indicator of a great nation is, in fact, the general welfare of all its people.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 96,
+    "topic": "The best way to understand the character of a society is to examine the character of the men and women that the society chooses as its heroes or its role models.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 97,
+    "topic": "All college and university students would benefit from spending at least one semester studying in a foreign country.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 98,
+    "topic": "Some people claim that a nation's government should preserve its wilderness areas in their natural state. Others argue that these areas should be developed for potential economic gain.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 99,
+    "topic": "In most professions and academic fields, imagination is more important than knowledge.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 100,
+    "topic": "The surest indicator of a great nation is not the achievements of its rulers, artists, or scientists, but the general well-being of all its people.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 101,
+    "topic": "Some people argue that successful leaders in government, industry, or other fields must be highly competitive. Other people claim that in order to be successful, a leader must be willing and able to cooperate with others.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 102,
+    "topic": "College students should base their choice of a field of study on the availability of jobs in that field.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
+  },
+  {
+    "id": 103,
+    "topic": "Some people believe that corporations have a responsibility to promote the well-being of the societies and environments in which they operate. Others believe that the only responsibility of corporations, provided they operate within the law, is to make as much money as possible.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 104,
+    "topic": "Claim: Researchers should not limit their investigations to only those areas in which they expect to discover something that has an immediate, practical application.\n\nReason: It is impossible to predict the outcome of a line of research with any certainty.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 105,
+    "topic": "Some people believe that our ever-increasing use of technology significantly reduces our opportunities for human interaction. Other people believe that technology provides us with new and better ways to communicate and connect with one another.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 106,
+    "topic": "Claim: Knowing about the past cannot help people to make important decisions today.\n\nReason: The world today is significantly more complex than it was even in the relatively recent past.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 107,
+    "topic": "Claim: Knowing about the past cannot help people to make important decisions today.\n\nReason: We are not able to make connections between current events and past events until we have some distance from both.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 108,
+    "topic": "Educational institutions should actively encourage their students to choose fields of study that will prepare them for lucrative careers.",
+    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.",
+    "category": 3
+  },
+  {
+    "id": 109,
+    "topic": "Educational institutions should actively encourage their students to choose fields of study in which jobs are plentiful.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 110,
+    "topic": "Educational institutions have a responsibility to dissuade students from pursuing fields of study in which they are unlikely to succeed.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 111,
+    "topic": "Some people believe that competition for high grades motivates students to excel in the classroom. Others believe that such competition seriously limits the quality of real learning.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 112,
+    "topic": "Claim: Major policy decisions should always be left to politicians and other government experts.\n\nReason: Politicians and other government experts are more informed and thus have better judgment and perspective than do members of the general public.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 113,
+    "topic": "Some people believe that universities should require every student to take a variety of courses outside the student's field of study. Others believe that universities should not force students to take any courses other than those that will help prepare them for jobs in their chosen fields.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 114,
+    "topic": "It is more harmful to compromise one's own beliefs than to adhere to them.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 115,
+    "topic": "Claim: Colleges and universities should specify all required courses and eliminate elective courses in order to provide clear guidance for students.\n\nReason: College students — like people in general — prefer to follow directions rather than make their own decisions.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 116,
+    "topic": "No field of study can advance significantly unless it incorporates knowledge and experience from outside that field.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 117,
+    "topic": "True success can be measured primarily in terms of the goals one sets for oneself.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 118,
+    "topic": "The general welfare of a nation's people is a better indication of that nation's greatness than are the achievements of its rulers, artists, or scientists.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 119,
+    "topic": "The best test of an argument is the argument's ability to convince someone with an opposing viewpoint.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 120,
+    "topic": "The effectiveness of a country's leaders is best measured by examining the well-being of that country's citizens.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 121,
+    "topic": "Nations should pass laws to preserve any remaining wilderness areas in their natural state.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 122,
+    "topic": "In any field — business, politics, education, government — those in power should be required to step down after five years.",
+    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.",
+    "category": 3
+  },
+  {
+    "id": 123,
+    "topic": "Some people claim that the goal of politics should be the pursuit of an ideal. Others argue that the goal should be finding common ground and reaching reasonable consensus.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 124,
+    "topic": "The best way to solve environmental problems caused by consumer-generated waste is for towns and cities to impose strict limits on the amount of trash they will accept from each household.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 125,
+    "topic": "We learn our most valuable lessons in life from struggling with our limitations rather than from enjoying our successes.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 126,
+    "topic": "Claim: While boredom is often expressed with a sense of self-satisfaction, it should really be a source of embarrassment.\n\nReason: Boredom arises from a lack of imagination and self-motivation.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 127,
+    "topic": "Some people believe that the most important qualities of an effective teacher are understanding and empathy. Others believe that it is more important for teachers to be rigorous and demanding in their expectations for students.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 128,
+    "topic": "Claim: Though often considered an objective pursuit, learning about the historical past requires creativity.\n\nReason: Because we can never know the past directly, we must reconstruct it by imaginatively interpreting historical accounts, documents, and artifacts.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which the claim is based.",
+    "category": 1
+  },
+  {
+    "id": 129,
+    "topic": "Claim: No act is done purely for the benefit of others.\n\nReason: All actions — even those that seem to be done for other people — are based on self-interest.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 130,
+    "topic": "To understand the most important characteristics of a society, one must study its major cities.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 131,
+    "topic": "Educational institutions have a responsibility to dissuade students from pursuing fields of study in which they are unlikely to succeed.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 132,
+    "topic": "Scandals are useful because they focus our attention on problems in ways that no speaker or reformer ever could.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 133,
+    "topic": "Claim: Governments must ensure that their major cities receive the financial support they need in order to thrive.\n\nReason: It is primarily in cities that a nation's cultural traditions are preserved and generated.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 134,
+    "topic": "Some people believe that government funding of the arts is necessary to ensure that the arts can flourish and be available to all people. Others believe that government funding of the arts threatens the integrity of the arts.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 135,
+    "topic": "Claim: In any field — business, politics, education, government — those in power should step down after five years.\n\nReason: The surest path to success for any enterprise is revitalization through new leadership.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 136,
+    "topic": "In any field of endeavor, it is impossible to make a significant contribution without first being strongly influenced by past achievements within that field.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 137,
+    "topic": "Nations should pass laws to preserve any remaining wilderness areas in their natural state, even if these areas could be developed for economic gain.",
+    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.",
+    "category": 3
+  },
+  {
+    "id": 138,
+    "topic": "People's behavior is largely determined by forces not of their own making.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 139,
+    "topic": "Governments should offer a free university education to any student who has been admitted to a university but who cannot afford the tuition.",
+    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.",
+    "category": 3
+  },
+  {
+    "id": 140,
+    "topic": "Claim: In any situation, the best way to persuade other people is to present them with facts and statistics rather than with emotional arguments.\n\nReason: Facts are objective, so they are more persuasive than subjective appeals.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 141,
+    "topic": "Some people believe that success in creative fields, such as painting, fiction writing, and filmmaking, primarily requires hard work and perseverance. Others believe that such success mainly requires innate talents that cannot be learned.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 142,
+    "topic": "In business, education, and government, it is always appropriate to remain skeptical of new leaders until those leaders show that they are worthy of trust.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 143,
+    "topic": "Claim: Group assignments that students must work together to complete should replace a substantial amount of traditional lecture-based instruction in college and university courses.\n\nReason: It is vital for students to gain experience collaborating with peers to study a topic and to achieve a common goal.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 144,
+    "topic": "Universities should require every student to take a variety of courses outside the student's field of study.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 145,
+    "topic": "A nation should require all of its students to study the same national curriculum until they enter college.",
+    "statements": "Write a response in which you discuss your views on the policy and explain your reasoning for the position you take. In developing and supporting your position, you should consider the possible consequences of implementing the policy and explain how these consequences shape your position.",
+    "category": 3
+  },
+  {
+    "id": 146,
+    "topic": "Educational institutions should actively encourage their students to choose fields of study that will prepare them for lucrative careers.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
+  },
+  {
+    "id": 147,
+    "topic": "Some people believe that in order to be effective, political leaders must yield to public opinion and abandon principle for the sake of compromise. Others believe that the most essential quality of an effective leader is the ability to remain consistently committed to particular principles and objectives.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 148,
+    "topic": "Formal education tends to restrain our minds and spirits rather than set them free.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 149,
+    "topic": "The well-being of a society is enhanced when many of its people question authority.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 150,
+    "topic": "Governments should focus on solving the immediate problems of today rather than on trying to solve the anticipated problems of the future.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the recommendation and explain your reasoning for the position you take. In developing and supporting your position, describe specific circumstances in which adopting the recommendation would or would not be advantageous and explain how these examples shape your position.",
+    "category": 2
+  },
+  {
+    "id": 151,
+    "topic": "Some people believe that college students should consider only their own talents and interests when choosing a field of study. Others believe that college students should base their choice of a field of study on the availability of jobs in that field.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 152,
+    "topic": "Laws should be flexible enough to take account of various circumstances, times, and places.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the statement and explain your reasoning for the position you take. In developing and supporting your position, you should consider ways in which the statement might or might not hold true and explain how these considerations shape your position.",
+    "category": 5
+  },
+  {
+    "id": 153,
+    "topic": "Claim: The best way to understand the character of a society is to examine the character of the men and women that the society chooses as its heroes or its role models.\n\nReason: Heroes and role models reveal a society's highest ideals.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 154,
+    "topic": "Some people believe that it is helpful to view a challenging situation as an opportunity for personal growth. Others believe that reimagining challenging situations this way occupies too much of the focus one needs to face challenges effectively.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 155,
+    "topic": "Some people believe that traveling to and living in numerous places increases one's ability to relate and connect to other people. Others believe that this ability is better cultivated by living in one place and developing a deep understanding of that community.",
+    "statements": "Write a response in which you discuss which view more closely aligns with your own position and explain your reasoning for the position you take. In developing and supporting your position, you should address both of the views presented.",
+    "category": 4
+  },
+  {
+    "id": 156,
     "topic": "Claim: Young people's tendency to make extensive use of portable devices like smartphones and tablets has hurt their development of social skills.\n\nReason: These devices encourage users to form artificial personalities and relationships online rather than fully and honestly engaging with the people around them.",
-    "translation": "主张：年轻人广泛使用智能手机和平板电脑等便携设备的趋势损害了他们社交技能的发展。\n\n理由：这些设备鼓励用户在网上形成虚假的个性和关系，而不是与周围的人充分和诚实地互动。",
-    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based."
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 157,
+    "topic": "Claim: When one is making a decision, it is better to have a limited number of options.\n\nReason: The more options a person has, the more difficult it is to make a rational decision.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim and the reason on which that claim is based.",
+    "category": 1
+  },
+  {
+    "id": 158,
+    "topic": "Because people increasingly feel compelled to share their personal details online, the right to privacy is eroding.",
+    "statements": "Write a response in which you discuss the extent to which you agree or disagree with the claim. In developing and supporting your position, be sure to address the most compelling reasons and/or examples that could be used to challenge your position.",
+    "category": 6
   }
 ]
