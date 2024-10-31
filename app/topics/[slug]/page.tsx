@@ -12,7 +12,7 @@ import { useRouter } from "next/navigation";
 import useStore from "@/lib/use-store";
 
 export default function WritingBoard({ params }: any) {
-  const { addCompletedTopic, incompletedTopics, completedTopics }: any =
+  const { addCompletedTopic, removeCompletedTopic, incompletedTopics, completedTopics }: any =
     useStore();
 
   const selectedTopic = [...incompletedTopics, ...completedTopics].find(
@@ -31,6 +31,12 @@ export default function WritingBoard({ params }: any) {
         content: text,
         lastdate: new Date().toLocaleString(),
       });
+    } else {
+      const updatedTopic = { ...selectedTopic };
+      delete updatedTopic.content;
+      delete updatedTopic.lastdate;
+      removeCompletedTopic(updatedTopic);
+      console.log(updatedTopic)
     }
   };
 

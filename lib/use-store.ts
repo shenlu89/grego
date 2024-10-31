@@ -20,6 +20,16 @@ const useStore = create(
             (t: any) => t.id !== topic.id
           ),
         })),
+      removeCompletedTopic: (topic: any) =>
+        set((state: any) => ({
+          incompletedTopics: [
+            topic,
+            ...state.incompletedTopics.filter((t: any) => t.id !== topic.id),
+          ],
+          completedTopics: state.completedTopics.filter(
+            (t: any) => t.id !== topic.id
+          ),
+        })),
       setEnabled: (bool: any) => set({ enabled: bool }),
     }),
     {
