@@ -73,7 +73,7 @@ export default function Topics() {
           />
         </div>
         <div className="flex space-x-2 md:flex-1 flex-auto justify-between">
-          <div className="relative w-64 mb-4">
+          <div className="relative w-full md:w-52 mb-4">
             <Listbox value={selectedCategory} onChange={setSelectedCategory}>
               <div className="flex relative">
                 <ListboxButton className="flex w-full p-2 border rounded bg-white text-left">
