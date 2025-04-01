@@ -16,13 +16,6 @@ export default function NotFound() {
         </Link>{' '}
         page.
       </span>
-      <Image
-        width={150}
-        height={150}
-        src="/bmc_qr.png"
-        alt={""}
-        priority
-      />
     </section>
   );
 }
