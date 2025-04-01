@@ -44,12 +44,12 @@ export default function Topics() {
   }, [searchQuery, selectedCategory, fuse, allTopics, starred]);
 
   // Handle keypresses
-  useKeyPress(["/"], (event) => {
+  useKeyPress(["/"], (event: any) => {
     event.preventDefault();
     searchInput.current?.focus();
   });
 
-  useKeyPress(["Escape"], (event) => {
+  useKeyPress(["Escape"], (event: any) => {
     event.preventDefault();
     setSearchQuery("");
   });
