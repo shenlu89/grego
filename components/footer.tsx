@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Link from "next/link";
-import Image from "next/image";
-import { FaDiscord, FaXTwitter, FaGithub, FaWeixin } from "react-icons/fa6";
+import { FaXTwitter, FaGithub } from "react-icons/fa6";
 
 export const Footer: NextPage = () => {
   return (
@@ -22,28 +21,12 @@ export const Footer: NextPage = () => {
           <ul className="flex items-center space-x-2">
             <Link
               className="flex size-8 justify-center items-center rounded-full border bg-slate-600 hover:bg-black text-white"
-              href={"https://x.com/shelu89"}
+              href={"https://x.com/shenlu89"}
               target={"_blank"}
               title="X"
             >
               <FaXTwitter className="w-full" />
             </Link>
-            <Link
-              className="flex size-8 rounded-full justify-center items-center border bg-slate-600 hover:bg-black text-white"
-              href={"https://discord.gg/AEXwCWCUSp"}
-              target={"_blank"}
-              title="Discord"
-            >
-              <FaDiscord className="w-full" />
-            </Link>
-            {/* <Link
-            className='flex size-8 rounded-full justify-center items-center border bg-slate-600 hover:bg-black text-white'
-            href={'https://discord.gg/AEXwCWCUSp'}
-            target={'_blank'}
-            title='WeChat'
-          >
-            <FaWeixin className='w-full' />
-          </Link> */}
             <Link
               className="flex size-8 rounded-full justify-center items-center border group"
               href={"https://github.com/shenlu89"}
