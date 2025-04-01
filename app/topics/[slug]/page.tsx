@@ -4,7 +4,7 @@ import { Textarea } from "@headlessui/react";
 import CountDownTimer from "@/components/countdown-timer";
 import { notFound } from "next/navigation";
 import { HiArrowRight } from "react-icons/hi2";
-import { GoHistory } from "react-icons/go";
+import { HiOutlineStar, HiStar } from "react-icons/hi2";
 import { MdOutlineSaveAlt } from "react-icons/md";
 import { SlArrowRight } from "react-icons/sl";
 import Link from "next/link";
@@ -12,7 +12,7 @@ import { useRouter } from "next/navigation";
 import useStore from "@/lib/use-store";
 
 export default function WritingBoard({ params }: any) {
-  const { addCompletedTopic, removeCompletedTopic, incompletedTopics, completedTopics }: any =
+  const { addCompletedTopic, removeCompletedTopic, incompletedTopics, completedTopics, starredTopic }: any =
     useStore();
 
   const selectedTopic = [...incompletedTopics, ...completedTopics].find(
@@ -36,7 +36,6 @@ export default function WritingBoard({ params }: any) {
       delete updatedTopic.content;
       delete updatedTopic.lastdate;
       removeCompletedTopic(updatedTopic);
-      console.log(updatedTopic)
     }
   };
 
@@ -97,11 +96,13 @@ export default function WritingBoard({ params }: any) {
           value={text} // Set the value to the state variable
           onChange={(e) => setText(e.target.value)}
         />
-        <div className="flex w-full justify-end">
-          {/* <button className="flex font-bold text-sm items-center space-x-2 w-fit justify-center rounded border border-slate-600 bg-slate-100 px-3 py-2 text-slate-600 hover:text-white hover:bg-slate-600 ">
-            <span>History</span>
-            <GoHistory className="size-5" />
-          </button> */}
+        <div className="flex w-full justify-between">
+          <button className="flex font-bold text-sm items-center space-x-2 w-fit justify-center rounded border border-slate-600 bg-slate-100 px-3 py-2 text-slate-600 hover:text-white hover:bg-slate-600 "
+            onClick={() => starredTopic(selectedTopic)}
+          >
+            <span>Star</span>
+            {selectedTopic?.starred ? <HiStar className="size-6 fill-yellow-500" /> : <HiOutlineStar className="size-6" />}
+          </button>
           <button
             onClick={handleSave}
             className="px-3 py-2 text-sm items-center border border-green-500 flex space-x-2 hover:bg-green-500 hover:text-white bg-green-100 rounded text-green-500 font-bold"
