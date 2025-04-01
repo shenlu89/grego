@@ -6,6 +6,7 @@ const useStore = create(
   persist(
     (set) => ({
       enabled: true,
+      starred: false,
       selectedTopic: null,
       completedTopics: [],
       incompletedTopics: pool, // Initialize with an empty array
@@ -31,6 +32,17 @@ const useStore = create(
           ),
         })),
       setEnabled: (bool: any) => set({ enabled: bool }),
+      setStarred: (bool: any) => set({ starred: bool }),
+      starredTopic: (topic) =>
+        set((state) => {
+          const toggleStar = (t) =>
+            t.id === topic.id ? { ...t, starred: !t.starred } : t;
+
+          return {
+            completedTopics: state.completedTopics.map(toggleStar),
+            incompletedTopics: state.incompletedTopics.map(toggleStar),
+          };
+        }),
     }),
     {
       name: "writing-storage", // unique name for the storage
