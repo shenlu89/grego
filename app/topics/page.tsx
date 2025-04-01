@@ -56,7 +56,7 @@ export default function Topics() {
 
   return (
     <>
-      <div className="flex w-full justify-center space-x-2">
+      <div className="flex md:flex-row flex-col w-full justify-center md:space-x-2">
         <div className="relative w-full bg-white mb-4">
           <HiMiniMagnifyingGlass className="absolute left-3 top-1/2 translate-y-[-50%] w-5 h-5 text-slate-400" />
           <BsXCircleFill
@@ -72,37 +72,38 @@ export default function Topics() {
             className="w-full px-10 py-2 border rounded focus:outline-none"
           />
         </div>
-        <div className="relative w-64 mb-4">
-          {/* <ListBox /> */}
-          <Listbox value={selectedCategory} onChange={setSelectedCategory}>
-            <div className="flex relative">
-              <ListboxButton className="flex w-full p-2 border rounded bg-white text-left">
-                <div className="flex w-full text-ellipsis whitespace-nowrap">
-                  {selectedCategory === "all" ? `All Instructions (${allTopics.length})` : `Type ${selectedCategory} (${allTopics.filter((topic) => topic.category === Number(selectedCategory)).length})`}
-                </div>
-                <div className="size-6"></div>
-                <HiChevronDown
-                  className="absolute text-slate-400 top-1/2 transform translate-y-[-50%] right-3 size-5 "
-                  aria-hidden="true"
-                />
-              </ListboxButton>
-              <ListboxOptions
-                anchor="bottom"
-                className="w-[var(--button-width)] capitalize rounded border bg-white focus:outline-none mt-1"
-              >                {categories.map((category) => (
-                <ListboxOption key={category} value={category} className={`flex group px-3 py-2 justify-between cursor-pointer hover:bg-slate-100 space-x-2 ${selectedCategory === category ? 'bg-green-100' : ''}`}>
-                  {category === "all" ? `All Instructions (${allTopics.length})` : `Type ${category} (${allTopics.filter((topic) => topic.category === Number(category)).length})`}
-                  <HiCheck className="invisible size-5 text-green-500 group-data-[selected]:visible" />
-                </ListboxOption>
-              ))}
-              </ListboxOptions>
-            </div>
-          </Listbox>
-        </div>
-        <div className="flex relative justify-center item-center mb-4">
-          <button className="flex space-x-2 items-center flex-nowrap" onClick={() => setStarred(!starred)}>
-            {starred ? <HiStar className="size-6 fill-yellow-500" /> : <HiOutlineStar className="size-6" />}
-          </button>
+        <div className="flex space-x-2 md:flex-1 flex-auto justify-between">
+          <div className="relative w-64 mb-4">
+            <Listbox value={selectedCategory} onChange={setSelectedCategory}>
+              <div className="flex relative">
+                <ListboxButton className="flex w-full p-2 border rounded bg-white text-left">
+                  <div className="flex w-full text-ellipsis whitespace-nowrap">
+                    {selectedCategory === "all" ? `All Instructions (${allTopics.length})` : `Type ${selectedCategory} (${allTopics.filter((topic) => topic.category === Number(selectedCategory)).length})`}
+                  </div>
+                  <div className="size-6"></div>
+                  <HiChevronDown
+                    className="absolute text-slate-400 top-1/2 transform translate-y-[-50%] right-3 size-5 "
+                    aria-hidden="true"
+                  />
+                </ListboxButton>
+                <ListboxOptions
+                  anchor="bottom"
+                  className="w-[var(--button-width)] capitalize rounded border bg-white focus:outline-none mt-1"
+                >                {categories.map((category) => (
+                  <ListboxOption key={category} value={category} className={`flex group px-3 py-2 justify-between cursor-pointer hover:bg-slate-100 space-x-2 ${selectedCategory === category ? 'bg-green-100' : ''}`}>
+                    {category === "all" ? `All Instructions (${allTopics.length})` : `Type ${category} (${allTopics.filter((topic) => topic.category === Number(category)).length})`}
+                    <HiCheck className="invisible size-5 text-green-500 group-data-[selected]:visible" />
+                  </ListboxOption>
+                ))}
+                </ListboxOptions>
+              </div>
+            </Listbox>
+          </div>
+          <div className="flex relative justify-center item-center mb-4">
+            <button className="flex items-center flex-nowrap" onClick={() => setStarred(!starred)}>
+              {starred ? <HiStar className="size-6 fill-yellow-500" /> : <HiOutlineStar className="size-6" />}
+            </button>
+          </div>
         </div>
       </div>
       <ul className="flex w-full flex-col space-y-4">
