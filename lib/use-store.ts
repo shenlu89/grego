@@ -33,9 +33,9 @@ const useStore = create(
         })),
       setEnabled: (bool: any) => set({ enabled: bool }),
       setStarred: (bool: any) => set({ starred: bool }),
-      starredTopic: (topic) =>
-        set((state) => {
-          const toggleStar = (t) =>
+      starredTopic: (topic: any) =>
+        set((state: any) => {
+          const toggleStar = (t: any) =>
             t.id === topic.id ? { ...t, starred: !t.starred } : t;
 
           return {
