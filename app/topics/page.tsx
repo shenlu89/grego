@@ -21,7 +21,7 @@ export default function Topics() {
     () => [...incompletedTopics, ...completedTopics].sort((a, b) => a.id - b.id),
     [incompletedTopics, completedTopics]
   );
-  const categories = useMemo(() => ["all", ...new Set(allTopics.map((t) => t.category))].sort((a, b) => a - b), [allTopics]);
+  const categories = useMemo(() => ["all", ...Array.from(new Set(allTopics.map((t) => t.category)))].sort((a, b) => a - b), [allTopics]);
 
   // Fuse.js search options
   const fuse = useMemo(
