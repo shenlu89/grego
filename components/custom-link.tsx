@@ -13,7 +13,8 @@ const CustomLink = (props: any) => {
     }
   }
 
-  return <Link {...props} />
+  return <Link {...props} className="underline-offset-[3px] hover:underline hover:text-black"
+  />
 }
 
 export default CustomLink
