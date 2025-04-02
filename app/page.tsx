@@ -8,7 +8,7 @@ import Link from "next/link";
 import useStore from "@/lib/use-store";
 import { LuSquarePen } from "react-icons/lu";
 import { HiOutlineStar, HiStar } from "react-icons/hi2";
-
+import TopicsTabs from "@/components/topics-tabs"
 
 const randomTopic = (pool: any[]) =>
   pool[Math.floor(Math.random() * pool.length)];
@@ -32,8 +32,8 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col w-full space-y-4">
-        <div className="flex w-full justify-between font-bold items-center">
-          <div className="flex space-x-4">
+        <div className="flex md:flex-row flex-col md:space-y-0 space-y-4 w-full justify-between font-bold items-center">
+          <div className="flex space-x-4 w-full md:w-auto justify-between md:justify-start">
             <div className="flex space-x-2 items-center flex-nowrap">
               <Checkbox
                 checked={enabled}
@@ -53,7 +53,7 @@ export default function Home() {
             onClick={() =>
               setSelectedTopic(randomTopic(enabled ? incompletedTopics.filter((topic: any) => topic.starred === starred) : pool.filter((topic: any) => topic.starred === starred)))
             }
-            className="flex items-center rounded select-none space-x-1 text-sm min-w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 hover:bg-green-500 bg-green-100 hover:text-white"
+            className="flex md:w-auto w-full items-center rounded select-none space-x-1 text-sm min-w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 hover:bg-green-500 bg-green-100 hover:text-white"
           >
             <span>PICK ONE TOPIC</span>
             <LuShuffle className="size-5" />
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between space-x-4">
+        <div className="md:flex justify-between space-x-4 hidden">
           <div className="flex flex-col w-1/2 items-center">
             <h2 className="text-xl font-bold mb-4">
               Incomplete Topics ({incompletedTopics.length})
@@ -142,6 +142,9 @@ export default function Home() {
               ))}
             </ul>
           </div>
+        </div>
+        <div className="flex justify-between space-x-4 md:hidden">
+          <TopicsTabs incompletedTopics={incompletedTopics} completedTopics={completedTopics} />
         </div>
       </div>
     </>
