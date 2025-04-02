@@ -12,7 +12,7 @@ export default function TopicsTabs({ incompletedTopics, completedTopics }: any) 
       <TabPanels>
         <TabPanel>
           <ul className="flex flex-col space-y-4">
-            {incompletedTopics.map((topic) => (
+            {incompletedTopics.map((topic: any) => (
               <li key={topic.id}>
                 <Link href={`/topics/${topic.id}`} className="flex flex-col p-4 space-y-4 bg-white border">
                   <div className="flex justify-between">
@@ -27,7 +27,7 @@ export default function TopicsTabs({ incompletedTopics, completedTopics }: any) 
         </TabPanel>
         <TabPanel>
           <ul className="flex flex-col space-y-4 p-4">
-            {completedTopics.map((topic) => (
+            {completedTopics.map((topic: any) => (
               <li key={topic.id}>
                 <Link href={`/topics/${topic.id}`} className="flex flex-col p-4 space-y-4 border bg-green-50">
                   <div className="flex justify-between">
@@ -37,7 +37,7 @@ export default function TopicsTabs({ incompletedTopics, completedTopics }: any) 
                   <div className="font-bold">{topic.topic}</div>
                   <div className="flex justify-between text-slate-600">
                     <span>
-                      Words: {topic.content.split(/\s+/).filter((word) => word.length > 0).length}
+                      Words: {topic.content.split(/\s+/).filter((word: string) => word.length > 0).length}
                     </span>
                     <span>{topic.lastdate}</span>
                   </div>
