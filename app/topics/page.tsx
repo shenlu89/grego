@@ -56,7 +56,7 @@ export default function Topics() {
 
   return (
     <>
-      <div className="flex md:flex-row flex-col w-full justify-center md:space-x-2">
+      <div className="flex md:flex-row flex-col w-full justify-center md:space-x-2 fixed md:relative mt-[-1rem] bg-slate-50 md:bg-transparent p-4 md:p-0">
         <div className="relative w-full bg-white mb-4">
           <HiMiniMagnifyingGlass className="absolute left-3 top-1/2 translate-y-[-50%] w-5 h-5 text-slate-400" />
           <BsXCircleFill
@@ -106,7 +106,8 @@ export default function Topics() {
           </div>
         </div>
       </div>
-      <ul className="flex w-full flex-col space-y-4">
+      <hr className="w-full border-t-[1px] border-slate-200 mb-4 md:hidden flex" />
+      <ul className="flex w-full flex-col space-y-4 mt-24 md:mt-0">
         {filteredTopics.map((topic) => (
           <li
             key={topic.id}
