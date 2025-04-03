@@ -29,7 +29,7 @@ export const Footer: NextPage = () => {
             </Link>
             <Link
               className="flex size-8 rounded-full justify-center items-center border group"
-              href={"https://github.com/shenlu89"}
+              href={"https://github.com/shenlu89/grego"}
               target={"_blank"}
               title="GitHub"
             >
