@@ -69,14 +69,14 @@ export default function Topics() {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder='Type "/" to search topics'
-            className="w-full px-10 py-2 border rounded focus:outline-none"
+            className="w-full px-10 py-2 border border-slate-200 rounded focus:outline-none"
           />
         </div>
         <div className="flex space-x-2 md:flex-1 flex-auto justify-between">
           <div className="relative w-full md:w-52 mb-4">
             <Listbox value={selectedCategory} onChange={setSelectedCategory}>
               <div className="flex relative">
-                <ListboxButton className="flex w-full p-2 border rounded bg-white text-left">
+                <ListboxButton className="flex w-full p-2 border border-slate-200 rounded bg-white text-left">
                   <div className="flex w-full text-ellipsis whitespace-nowrap">
                     {selectedCategory === "all" ? `All Instructions (${allTopics.length})` : `Type ${selectedCategory} (${allTopics.filter((topic) => topic.category === Number(selectedCategory)).length})`}
                   </div>
@@ -88,7 +88,7 @@ export default function Topics() {
                 </ListboxButton>
                 <ListboxOptions
                   anchor="bottom"
-                  className="w-[var(--button-width)] capitalize rounded border bg-white focus:outline-none mt-1"
+                  className="w-[var(--button-width)] capitalize rounded border border-slate-200 bg-white focus:outline-none mt-1"
                 >                {categories.map((category) => (
                   <ListboxOption key={category} value={category} className={`flex group px-3 py-2 justify-between cursor-pointer hover:bg-slate-100 space-x-2 ${selectedCategory === category ? 'bg-green-100' : ''}`}>
                     {category === "all" ? `All Instructions (${allTopics.length})` : `Type ${category} (${allTopics.filter((topic) => topic.category === Number(category)).length})`}
@@ -111,7 +111,7 @@ export default function Topics() {
         {filteredTopics.map((topic) => (
           <li
             key={topic.id}
-            className={`flex flex-col p-4 border space-y-4 w-full ${completedTopics.find((t: any) => t.id === topic.id)
+            className={`flex flex-col p-4 border border-slate-200 space-y-4 w-full ${completedTopics.find((t: any) => t.id === topic.id)
               ? "bg-green-50"
               : "bg-white"
               }`}
@@ -121,9 +121,9 @@ export default function Topics() {
                 <h2 key={index}>{p}</h2>
               ))}
             </div>
-            <hr />
+            <hr className="border border-slate-200 border-t-transparent" />
             <p>{topic?.statements}</p>
-            <hr />
+            <hr className="border border-slate-200 border-t-transparent" />
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-2 justify-between">
                 <Link href={`#${topic.id}`}>#{topic.id}</Link>

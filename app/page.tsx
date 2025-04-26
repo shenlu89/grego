@@ -59,7 +59,7 @@ export default function Home() {
             <LuShuffle className="size-5" />
           </button>
         </div>
-        <div className="flex flex-col p-4 border bg-white space-y-4">
+        <div className="flex flex-col p-4 border border-slate-200 bg-white space-y-4">
           <div className="text-lg font-bold">
             {selectedTopic?.topic
               ?.split("\n\n")
@@ -67,9 +67,9 @@ export default function Home() {
                 <div key={index}>{p}</div>
               ))}
           </div>
-          <hr />
+          <hr className="border border-slate-200 border-t-transparent" />
           <div>{selectedTopic?.statements}</div>
-          <hr />
+          <hr className="border border-slate-200 border-t-transparent" />
           <div className="flex justify-between items-center">
             <div>#{selectedTopic?.id}</div>
             <div className="flex items-center space-x-2 justify-between">
@@ -98,7 +98,7 @@ export default function Home() {
                 <li key={topic.id}>
                   <Link
                     href={`/topics/${topic.id}`}
-                    className="flex flex-col p-4 space-y-4 bg-white border "
+                    className="flex flex-col p-4 space-y-4 bg-white border border-slate-200"
                   >
                     <div className="flex justify-between">
                       <div>#{topic.id}</div>
@@ -119,7 +119,7 @@ export default function Home() {
                 <li key={topic.id}>
                   <Link
                     href={`/topics/${topic.id}`}
-                    className="flex flex-col p-4 space-y-4 border bg-green-50"
+                    className="flex flex-col p-4 space-y-4 border border-slate-200bg-green-50"
                   >
                     <div className="flex justify-between">
                       <div>#{topic.id}</div>
