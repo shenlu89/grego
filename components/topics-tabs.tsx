@@ -6,8 +6,8 @@ export default function TopicsTabs({ incompletedTopics, completedTopics }: any) 
   return (
     <TabGroup>
       <TabList className="flex space-x-4 mb-4">
-        <Tab className={({ selected }) => `px-3 py-2 outline-none ${selected ? 'border-b-2 border-green-500 font-bold' : 'text-gray-500'}`}>Incomplete Topics ({incompletedTopics.length})</Tab>
-        <Tab className={({ selected }) => `px-3 py-2 outline-none ${selected ? 'border-b-2 border-green-500 font-bold' : 'text-gray-500'}`}>Completed Topics ({completedTopics.length})</Tab>
+        <Tab className={({ selected }) => `px-3 py-2 outline-none ${selected && 'border-b-2 border-green-500 font-bold'}`}>Incomplete Topics ({incompletedTopics.length})</Tab>
+        <Tab className={({ selected }) => `px-3 py-2 outline-none ${selected && 'border-b-2 border-green-500 font-bold'}}`}>Completed Topics ({completedTopics.length})</Tab>
       </TabList>
       <TabPanels>
         <TabPanel>
