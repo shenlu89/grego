@@ -44,7 +44,7 @@ export default function Home() {
               </Checkbox>
               <span className="whitespace-nowrap">ONLY Incomplete Topics</span>
             </div>
-            <button className="flex space-x-2 items-center flex-nowrap" onClick={() => setStarred(!starred)}>
+            <button className="flex space-x-2 items-center flex-nowrap cursor-pointer" onClick={() => setStarred(!starred)}>
               {starred ? <HiStar className="size-6 fill-yellow-500" /> : <HiOutlineStar className="size-6" />}
               <span className="whitespace-nowrap">Starred</span>
             </button>
@@ -53,7 +53,7 @@ export default function Home() {
             onClick={() =>
               setSelectedTopic(randomTopic(enabled ? incompletedTopics.filter((topic: any) => topic.starred === starred) : pool.filter((topic: any) => topic.starred === starred)))
             }
-            className="flex md:w-auto w-full items-center rounded select-none space-x-1 text-sm min-w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 hover:bg-green-500 bg-green-100 hover:text-white"
+            className="flex md:w-auto w-full items-center rounded select-none space-x-1 text-sm min-w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 hover:bg-green-500 bg-green-100 hover:text-white cursor-pointer"
           >
             <span>PICK ONE TOPIC</span>
             <LuShuffle className="size-5" />
