@@ -100,7 +100,7 @@ export default function Topics() {
             </Listbox>
           </div>
           <div className="flex relative justify-center item-center mb-4">
-            <button className="flex items-center flex-nowrap" onClick={() => setStarred(!starred)}>
+            <button className="flex items-center flex-nowrap cursor-pointer" onClick={() => setStarred(!starred)}>
               {starred ? <HiStar className="size-6 fill-yellow-500" /> : <HiOutlineStar className="size-6" />}
             </button>
           </div>
@@ -127,13 +127,10 @@ export default function Topics() {
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-2 justify-between">
                 <Link href={`#${topic.id}`}>#{topic.id}</Link>
-                {/* <button>
-                  <FaRegStar className="size-5" />
-                </button> */}
               </div>
               <div className="flex items-center space-x-2 justify-between">
                 <button
-                  className="flex items-center"
+                  className="flex items-center cursor-pointer"
                   onClick={() => starredTopic(topic)}
                 >
                   {topic?.starred ? <HiStar className="size-6 fill-yellow-500" /> : <HiOutlineStar className="size-6" />}
