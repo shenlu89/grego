@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, use } from "react";
 import { Textarea } from "@headlessui/react";
 import CountDownTimer from "@/components/countdown-timer";
 import { notFound } from "next/navigation";
@@ -14,9 +14,10 @@ import useStore from "@/lib/use-store";
 export default function WritingBoard({ params }: any) {
   const { addCompletedTopic, removeCompletedTopic, incompletedTopics, completedTopics, starredTopic }: any =
     useStore();
+  const { slug }: any = use(params);
 
   const selectedTopic = [...incompletedTopics, ...completedTopics].find(
-    (topic) => topic.id === +params.slug
+    (topic) => topic.id === +slug
   );
   if (!selectedTopic) notFound();
   const router = useRouter();
@@ -59,13 +60,13 @@ export default function WritingBoard({ params }: any) {
           </div>
           <button
             onClick={() => router.back()}
-            className="flex font-bold text-sm items-center space-x-2 w-fit justify-center rounded border border-slate-600 bg-slate-100 px-3 py-2 text-slate-600 hover:text-white hover:bg-slate-600 "
+            className="flex font-bold text-sm items-center space-x-2 w-fit justify-center rounded border cursor-pointer border-slate-600 bg-slate-100 px-3 py-2 text-slate-600 hover:text-white hover:bg-slate-600 "
           >
             <span>Go Back</span>
             <HiArrowRight className="size-4" />
           </button>
         </div>
-        <div className="flex flex-col p-4 border bg-white space-y-4">
+        <div className="flex flex-col p-4 border border-slate-200 bg-white space-y-4">
           <div className="text-lg font-bold">
             {selectedTopic?.topic
               .split("\n\n")
@@ -73,7 +74,7 @@ export default function WritingBoard({ params }: any) {
                 <h2 key={index}>{p}</h2>
               ))}
           </div>
-          <hr />
+          <hr className="border border-slate-200 border-t-transparent" />
           <p>{selectedTopic?.statements}</p>
         </div>
         {/* <hr /> */}
@@ -91,13 +92,13 @@ export default function WritingBoard({ params }: any) {
         </div>
         <Textarea
           ref={textareaRef}
-          className="w-full p-4 h-[48rem] outline-none border"
+          className="w-full p-4 h-[48rem] outline-none border border-slate-200 bg-white"
           rows={3}
           value={text} // Set the value to the state variable
           onChange={(e) => setText(e.target.value)}
         />
         <div className="flex w-full justify-between">
-          <button className="flex font-bold text-sm items-center space-x-2 w-fit justify-center rounded border border-slate-600 bg-slate-100 px-3 py-2 text-slate-600 hover:text-white hover:bg-slate-600 "
+          <button className="flex font-bold text-sm items-center space-x-2 w-fit justify-center rounded cursor-pointer border border-slate-600 bg-slate-100 px-3 py-2 text-slate-600 hover:text-white hover:bg-slate-600 "
             onClick={() => starredTopic(selectedTopic)}
           >
             <span>Star</span>
@@ -105,7 +106,7 @@ export default function WritingBoard({ params }: any) {
           </button>
           <button
             onClick={handleSave}
-            className="px-3 py-2 text-sm items-center border border-green-500 flex space-x-2 hover:bg-green-500 hover:text-white bg-green-100 rounded text-green-500 font-bold"
+            className="px-3 py-2 text-sm items-center border border-green-500 cursor-pointer flex space-x-2 hover:bg-green-500 hover:text-white bg-green-100 rounded text-green-500 font-bold"
           >
             <span>Save</span>
             <MdOutlineSaveAlt className="size-5" />
