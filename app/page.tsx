@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { Checkbox } from "@headlessui/react";
 import { HiCheck } from "react-icons/hi";
 import { LuShuffle } from "react-icons/lu";
-import pool from "@/data/writing-pool.json";
 import Link from "next/link";
 import useStore from "@/lib/use-store";
 import { LuSquarePen } from "react-icons/lu";
@@ -26,7 +25,7 @@ export default function Home() {
   }: any = useStore();
 
   useEffect(() => {
-    setSelectedTopic(randomTopic(enabled ? incompletedTopics.filter((topic: any) => topic.starred === starred) : pool.filter((topic: any) => topic.starred === starred)));
+    setSelectedTopic(randomTopic(enabled ? incompletedTopics.filter((topic: any) => topic.starred === starred) : [...incompletedTopics, ...completedTopics].filter((topic: any) => topic.starred === starred)));
   }, [enabled, starred, incompletedTopics, setSelectedTopic]);
 
   return (
@@ -51,7 +50,7 @@ export default function Home() {
           </div>
           <button
             onClick={() =>
-              setSelectedTopic(randomTopic(enabled ? incompletedTopics.filter((topic: any) => topic.starred === starred) : pool.filter((topic: any) => topic.starred === starred)))
+              setSelectedTopic(randomTopic(enabled ? incompletedTopics.filter((topic: any) => topic.starred === starred) : [...incompletedTopics, ...completedTopics].filter((topic: any) => topic.starred === starred)))
             }
             className="flex md:w-auto w-full items-center rounded select-none space-x-1 text-sm min-w-fit justify-center font-bold px-3 py-2 border text-green-500 border-green-500 hover:bg-green-500 bg-green-100 hover:text-white cursor-pointer"
           >
