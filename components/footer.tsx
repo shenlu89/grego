@@ -20,20 +20,18 @@ export const Footer: NextPage = () => {
           </p>
           <ul className="flex items-center space-x-2">
             <Link
-              className="flex size-8 justify-center items-center rounded-full border bg-slate-600 hover:bg-black text-white"
               href={"https://x.com/shenlu89"}
               target={"_blank"}
               title="X"
             >
-              <FaXTwitter className="w-full" />
+              <FaXTwitter className="size-6" />
             </Link>
             <Link
-              className="flex size-8 rounded-full justify-center items-center border group"
               href={"https://github.com/shenlu89/grego"}
               target={"_blank"}
               title="GitHub"
             >
-              <FaGithub className="size-8 fill-slate-600 group-hover:fill-black" />
+              <FaGithub className="size-6" />
             </Link>
           </ul>
         </div>
