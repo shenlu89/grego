@@ -14,7 +14,7 @@ export default function TopicsTabs({ incompletedTopics, completedTopics }: any) 
           <ul className="flex flex-col space-y-4">
             {incompletedTopics.map((topic: any) => (
               <li key={topic.id}>
-                <Link href={`/topics/${topic.id}`} className="flex flex-col p-4 space-y-4 bg-white border">
+                <Link href={`/topics/${topic.id}`} className="flex flex-col p-4 space-y-4 bg-white border border-slate-200">
                   <div className="flex justify-between">
                     <div>#{topic.id}</div>
                     {topic?.starred ? <HiStar className="size-6 fill-yellow-500" /> : <HiOutlineStar className="size-6" />}
@@ -29,7 +29,7 @@ export default function TopicsTabs({ incompletedTopics, completedTopics }: any) 
           <ul className="flex flex-col space-y-4 p-4">
             {completedTopics.map((topic: any) => (
               <li key={topic.id}>
-                <Link href={`/topics/${topic.id}`} className="flex flex-col p-4 space-y-4 border bg-green-50">
+                <Link href={`/topics/${topic.id}`} className="flex flex-col p-4 space-y-4 border border-slate-200 bg-green-50">
                   <div className="flex justify-between">
                     <div>#{topic.id}</div>
                     {topic?.starred ? <HiStar className="size-6 fill-yellow-500" /> : <HiOutlineStar className="size-6" />}
