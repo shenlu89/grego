@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+button {
+  cursor: pointer;
+}
+
 table {
   @apply border border-slate-200 dark:border-slate-600 border-collapse !table-fixed;
 }
